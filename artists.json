@@ -1,0 +1,4713 @@
+[
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=SC+Papi&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/50km3N5wwVlGJvZYqIrAoK"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 2911
+                    },
+                    "genres": [
+                        "rap tunisien"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/50km3N5wwVlGJvZYqIrAoK",
+                    "id": "50km3N5wwVlGJvZYqIrAoK",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb5d884b21678cc665f741f9d3",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab676161000051745d884b21678cc665f741f9d3",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f1785d884b21678cc665f741f9d3",
+                            "width": 160
+                        }
+                    ],
+                    "name": "SC Papi",
+                    "popularity": 30,
+                    "type": "artist",
+                    "uri": "spotify:artist:50km3N5wwVlGJvZYqIrAoK"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=SC+Papi&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 9
+        }
+    },
+    {
+        "artists": {
+          "href": "https://api.spotify.com/v1/search?query=Zedk&type=artist&locale=fr-FR%2Cfr%3Bq%3D0.9&offset=0&limit=1",
+          "items": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/5eDzQ1aF3AyCoQC9uNTwzE"
+              },
+              "followers": {
+                "href": null,
+                "total": 159050
+              },
+              "genres": [
+                "arabic hip hop",
+                "rap algerien"
+              ],
+              "href": "https://api.spotify.com/v1/artists/5eDzQ1aF3AyCoQC9uNTwzE",
+              "id": "5eDzQ1aF3AyCoQC9uNTwzE",
+              "images": [
+                {
+                  "height": 640,
+                  "url": "https://i.scdn.co/image/ab6761610000e5eb57f24be958dd3a3cd9c92a13",
+                  "width": 640
+                },
+                {
+                  "height": 320,
+                  "url": "https://i.scdn.co/image/ab6761610000517457f24be958dd3a3cd9c92a13",
+                  "width": 320
+                },
+                {
+                  "height": 160,
+                  "url": "https://i.scdn.co/image/ab6761610000f17857f24be958dd3a3cd9c92a13",
+                  "width": 160
+                }
+              ],
+              "name": "Zedk",
+              "popularity": 45,
+              "type": "artist",
+              "uri": "spotify:artist:5eDzQ1aF3AyCoQC9uNTwzE"
+            }
+          ],
+          "limit": 1,
+          "next": "https://api.spotify.com/v1/search?query=Zedk&type=artist&locale=fr-FR%2Cfr%3Bq%3D0.9&offset=1&limit=1",
+          "offset": 0,
+          "previous": null,
+          "total": 20
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Dabs&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0VF7XcB73fBSIfX9hOTVij"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 61224
+                    },
+                    "genres": [
+                        "francoton",
+                        "french hip hop",
+                        "pop urbaine",
+                        "rap francais"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/0VF7XcB73fBSIfX9hOTVij",
+                    "id": "0VF7XcB73fBSIfX9hOTVij",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5ebe8cc608a74b4301334388601",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174e8cc608a74b4301334388601",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178e8cc608a74b4301334388601",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Dabs",
+                    "popularity": 52,
+                    "type": "artist",
+                    "uri": "spotify:artist:0VF7XcB73fBSIfX9hOTVij"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Dabs&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 74
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Islem-23&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4fdscmamdruNB8lZ1nWrTd"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 82372
+                    },
+                    "genres": [
+                        "rap algerien"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/4fdscmamdruNB8lZ1nWrTd",
+                    "id": "4fdscmamdruNB8lZ1nWrTd",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb92b66cf05960fb13d7698506",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab6761610000517492b66cf05960fb13d7698506",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f17892b66cf05960fb13d7698506",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Islem-23",
+                    "popularity": 46,
+                    "type": "artist",
+                    "uri": "spotify:artist:4fdscmamdruNB8lZ1nWrTd"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Islem-23&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 3
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=ZAKO&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/7jsKsI1xJZMM12mysrlCJf"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 93874
+                    },
+                    "genres": [
+                        "rap algerien"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/7jsKsI1xJZMM12mysrlCJf",
+                    "id": "7jsKsI1xJZMM12mysrlCJf",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb6016e3fca40f4907a5820883",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab676161000051746016e3fca40f4907a5820883",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f1786016e3fca40f4907a5820883",
+                            "width": 160
+                        }
+                    ],
+                    "name": "ZAKO",
+                    "popularity": 39,
+                    "type": "artist",
+                    "uri": "spotify:artist:7jsKsI1xJZMM12mysrlCJf"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=ZAKO&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 89
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=4.4.2&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/5ocH0jGbwm0TeLOlegUVUY"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 538
+                    },
+                    "genres": [
+                        "francoton",
+                        "pop urbaine"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/5ocH0jGbwm0TeLOlegUVUY",
+                    "id": "5ocH0jGbwm0TeLOlegUVUY",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb17c2a85fd1d8919ba83ed7ed",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab6761610000517417c2a85fd1d8919ba83ed7ed",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f17817c2a85fd1d8919ba83ed7ed",
+                            "width": 160
+                        }
+                    ],
+                    "name": "4.4.2",
+                    "popularity": 50,
+                    "type": "artist",
+                    "uri": "spotify:artist:5ocH0jGbwm0TeLOlegUVUY"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=4.4.2&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 968
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Marou+Chenko&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/24KPNVdpY6Sx0JaApiLOsr"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 4074
+                    },
+                    "genres": [],
+                    "href": "https://api.spotify.com/v1/artists/24KPNVdpY6Sx0JaApiLOsr",
+                    "id": "24KPNVdpY6Sx0JaApiLOsr",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5ebbfc67750e73a1a11ea0c9c36",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174bfc67750e73a1a11ea0c9c36",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178bfc67750e73a1a11ea0c9c36",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Marou Chenko",
+                    "popularity": 54,
+                    "type": "artist",
+                    "uri": "spotify:artist:24KPNVdpY6Sx0JaApiLOsr"
+                }
+            ],
+            "limit": 1,
+            "next": null,
+            "offset": 0,
+            "previous": null,
+            "total": 1
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Stormy&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/5Do9u0GoN4gFn6Nk8NGDhh"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 197985
+                    },
+                    "genres": [
+                        "moroccan pop",
+                        "rap maroc"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/5Do9u0GoN4gFn6Nk8NGDhh",
+                    "id": "5Do9u0GoN4gFn6Nk8NGDhh",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb93385eca1110d19cd46ee2f0",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab6761610000517493385eca1110d19cd46ee2f0",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f17893385eca1110d19cd46ee2f0",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Stormy",
+                    "popularity": 55,
+                    "type": "artist",
+                    "uri": "spotify:artist:5Do9u0GoN4gFn6Nk8NGDhh"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Stormy&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 169
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Mc+Artisan&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/24XkH7tJDFfDrOLlONiy7S"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 91923
+                    },
+                    "genres": [
+                        "rap algerien"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/24XkH7tJDFfDrOLlONiy7S",
+                    "id": "24XkH7tJDFfDrOLlONiy7S",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5ebe74d16818e67ed6383b4cdee",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174e74d16818e67ed6383b4cdee",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178e74d16818e67ed6383b4cdee",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Mc Artisan",
+                    "popularity": 50,
+                    "type": "artist",
+                    "uri": "spotify:artist:24XkH7tJDFfDrOLlONiy7S"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Mc+Artisan&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 6
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Alonzo&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2z2TRvloJt4EfUNQp9rHAi"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 1491048
+                    },
+                    "genres": [
+                        "francoton",
+                        "french hip hop",
+                        "pop urbaine",
+                        "rap francais",
+                        "rap marseille"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/2z2TRvloJt4EfUNQp9rHAi",
+                    "id": "2z2TRvloJt4EfUNQp9rHAi",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5ebbfba3d3408c57a37afb1f9cf",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174bfba3d3408c57a37afb1f9cf",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178bfba3d3408c57a37afb1f9cf",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Alonzo",
+                    "popularity": 70,
+                    "type": "artist",
+                    "uri": "spotify:artist:2z2TRvloJt4EfUNQp9rHAi"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Alonzo&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 329
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=ElGrandeToto&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4BFLElxtBEdsdwGA1kHTsx"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 985060
+                    },
+                    "genres": [
+                        "arabic hip hop",
+                        "rap maroc"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/4BFLElxtBEdsdwGA1kHTsx",
+                    "id": "4BFLElxtBEdsdwGA1kHTsx",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb106e11241fea529fecc8cf77",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174106e11241fea529fecc8cf77",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178106e11241fea529fecc8cf77",
+                            "width": 160
+                        }
+                    ],
+                    "name": "ElGrandeToto",
+                    "popularity": 69,
+                    "type": "artist",
+                    "uri": "spotify:artist:4BFLElxtBEdsdwGA1kHTsx"
+                }
+            ],
+            "limit": 1,
+            "next": null,
+            "offset": 0,
+            "previous": null,
+            "total": 1
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Lil+Nas+X&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/7jVv8c5Fj3E9VhNjxT4snq"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 8156687
+                    },
+                    "genres": [
+                        "lgbtq+ hip hop",
+                        "pop"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/7jVv8c5Fj3E9VhNjxT4snq",
+                    "id": "7jVv8c5Fj3E9VhNjxT4snq",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5ebab6bd6e450cbc7629a9a2381",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174ab6bd6e450cbc7629a9a2381",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178ab6bd6e450cbc7629a9a2381",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Lil Nas X",
+                    "popularity": 91,
+                    "type": "artist",
+                    "uri": "spotify:artist:7jVv8c5Fj3E9VhNjxT4snq"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Lil+Nas+X&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 3
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=CKay&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/048LktY5zMnakWq7PTtFrz"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 306631
+                    },
+                    "genres": [
+                        "afro r&b"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/048LktY5zMnakWq7PTtFrz",
+                    "id": "048LktY5zMnakWq7PTtFrz",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5ebea3fa9954a2bbeeb43ba86ae",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174ea3fa9954a2bbeeb43ba86ae",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178ea3fa9954a2bbeeb43ba86ae",
+                            "width": 160
+                        }
+                    ],
+                    "name": "CKay",
+                    "popularity": 84,
+                    "type": "artist",
+                    "uri": "spotify:artist:048LktY5zMnakWq7PTtFrz"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=CKay&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 34
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Tagne&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3977Z9BZCFbJQYwdIdVwgc"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 297096
+                    },
+                    "genres": [
+                        "moroccan pop",
+                        "rap maroc"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/3977Z9BZCFbJQYwdIdVwgc",
+                    "id": "3977Z9BZCFbJQYwdIdVwgc",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb6c6e41b03732bdc90e76d720",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab676161000051746c6e41b03732bdc90e76d720",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f1786c6e41b03732bdc90e76d720",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Tagne",
+                    "popularity": 59,
+                    "type": "artist",
+                    "uri": "spotify:artist:3977Z9BZCFbJQYwdIdVwgc"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Tagne&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 5
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Fyanso&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/28I9J1TfdmN27XgRPhnmQe"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 2069
+                    },
+                    "genres": [
+                        "rap algerien"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/28I9J1TfdmN27XgRPhnmQe",
+                    "id": "28I9J1TfdmN27XgRPhnmQe",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5ebe0c0c7abbcafc178582c51c8",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174e0c0c7abbcafc178582c51c8",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178e0c0c7abbcafc178582c51c8",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Fyanso",
+                    "popularity": 31,
+                    "type": "artist",
+                    "uri": "spotify:artist:28I9J1TfdmN27XgRPhnmQe"
+                }
+            ],
+            "limit": 1,
+            "next": null,
+            "offset": 0,
+            "previous": null,
+            "total": 1
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Snor&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/7LC7LQ1f1CzaRLobFcblZN"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 315553
+                    },
+                    "genres": [
+                        "moroccan pop",
+                        "rap maroc"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/7LC7LQ1f1CzaRLobFcblZN",
+                    "id": "7LC7LQ1f1CzaRLobFcblZN",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5ebef501257b17981e5271871b5",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174ef501257b17981e5271871b5",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178ef501257b17981e5271871b5",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Snor",
+                    "popularity": 51,
+                    "type": "artist",
+                    "uri": "spotify:artist:7LC7LQ1f1CzaRLobFcblZN"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Snor&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 251
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=The+Kid+LAROI&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2tIP7SsRs7vjIcLrU85W8J"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 3013176
+                    },
+                    "genres": [
+                        "australian hip hop"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/2tIP7SsRs7vjIcLrU85W8J",
+                    "id": "2tIP7SsRs7vjIcLrU85W8J",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb70783ea42c106f3f325f53af",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab6761610000517470783ea42c106f3f325f53af",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f17870783ea42c106f3f325f53af",
+                            "width": 160
+                        }
+                    ],
+                    "name": "The Kid LAROI",
+                    "popularity": 90,
+                    "type": "artist",
+                    "uri": "spotify:artist:2tIP7SsRs7vjIcLrU85W8J"
+                }
+            ],
+            "limit": 1,
+            "next": null,
+            "offset": 0,
+            "previous": null,
+            "total": 1
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Alpha+5.20&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4NKumVnSozo1F50Wji9ddY"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 68226
+                    },
+                    "genres": [
+                        "french hip hop",
+                        "pop urbaine"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/4NKumVnSozo1F50Wji9ddY",
+                    "id": "4NKumVnSozo1F50Wji9ddY",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab67616d0000b273b3147bd697093112a1643563",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/ab67616d00001e02b3147bd697093112a1643563",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/ab67616d00004851b3147bd697093112a1643563",
+                            "width": 64
+                        }
+                    ],
+                    "name": "Alpha 5.20",
+                    "popularity": 42,
+                    "type": "artist",
+                    "uri": "spotify:artist:4NKumVnSozo1F50Wji9ddY"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Alpha+5.20&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 8
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Djalil+Palermo&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3SKKJMPgklOHgYeatf2YhX"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 232012
+                    },
+                    "genres": [
+                        "rai"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/3SKKJMPgklOHgYeatf2YhX",
+                    "id": "3SKKJMPgklOHgYeatf2YhX",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab67616d0000b2739e668dfbf65b30f876976619",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/ab67616d00001e029e668dfbf65b30f876976619",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/ab67616d000048519e668dfbf65b30f876976619",
+                            "width": 64
+                        }
+                    ],
+                    "name": "Djalil Palermo",
+                    "popularity": 54,
+                    "type": "artist",
+                    "uri": "spotify:artist:3SKKJMPgklOHgYeatf2YhX"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Djalil+Palermo&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 4
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Mouh+Milano&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1a4431ATLSQ5Rgq8Rr6sFj"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 249490
+                    },
+                    "genres": [
+                        "moroccan pop",
+                        "rai"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/1a4431ATLSQ5Rgq8Rr6sFj",
+                    "id": "1a4431ATLSQ5Rgq8Rr6sFj",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb3c21c5554f6dfb10f7fd5979",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab676161000051743c21c5554f6dfb10f7fd5979",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f1783c21c5554f6dfb10f7fd5979",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Mouh Milano",
+                    "popularity": 51,
+                    "type": "artist",
+                    "uri": "spotify:artist:1a4431ATLSQ5Rgq8Rr6sFj"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Mouh+Milano&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 2
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Drake&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 59379582
+                    },
+                    "genres": [
+                        "canadian hip hop",
+                        "canadian pop",
+                        "hip hop",
+                        "rap",
+                        "toronto rap"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/3TVXtAsR1Inumwj472S9r4",
+                    "id": "3TVXtAsR1Inumwj472S9r4",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb9e46a78c5cd2f7a8e7669980",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab676161000051749e46a78c5cd2f7a8e7669980",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f1789e46a78c5cd2f7a8e7669980",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Drake",
+                    "popularity": 98,
+                    "type": "artist",
+                    "uri": "spotify:artist:3TVXtAsR1Inumwj472S9r4"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Drake&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 956
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Laeti&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6TMBV8J3Jq1Gr5A5bFmVqf"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 10830
+                    },
+                    "genres": [],
+                    "href": "https://api.spotify.com/v1/artists/6TMBV8J3Jq1Gr5A5bFmVqf",
+                    "id": "6TMBV8J3Jq1Gr5A5bFmVqf",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5ebbfa09ecdf5c0e4fd78e34f12",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174bfa09ecdf5c0e4fd78e34f12",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178bfa09ecdf5c0e4fd78e34f12",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Laeti",
+                    "popularity": 58,
+                    "type": "artist",
+                    "uri": "spotify:artist:6TMBV8J3Jq1Gr5A5bFmVqf"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Laeti&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 154
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Elams&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2IoSLl3tqYMq9DzR0d6NJN"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 192738
+                    },
+                    "genres": [
+                        "francoton",
+                        "french hip hop",
+                        "pop urbaine",
+                        "rap francais",
+                        "rap marseille"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/2IoSLl3tqYMq9DzR0d6NJN",
+                    "id": "2IoSLl3tqYMq9DzR0d6NJN",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb01e0d95708fe4f59dd3bed29",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab6761610000517401e0d95708fe4f59dd3bed29",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f17801e0d95708fe4f59dd3bed29",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Elams",
+                    "popularity": 66,
+                    "type": "artist",
+                    "uri": "spotify:artist:2IoSLl3tqYMq9DzR0d6NJN"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Elams&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 7
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Gazo&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/5gqmbbfjcikQBzPB5Hv13I"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 273248
+                    },
+                    "genres": [
+                        "drill francais",
+                        "french hip hop",
+                        "pop urbaine",
+                        "rap francais"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/5gqmbbfjcikQBzPB5Hv13I",
+                    "id": "5gqmbbfjcikQBzPB5Hv13I",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb87f816e55448ab5155bb7867",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab6761610000517487f816e55448ab5155bb7867",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f17887f816e55448ab5155bb7867",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Gazo",
+                    "popularity": 75,
+                    "type": "artist",
+                    "uri": "spotify:artist:5gqmbbfjcikQBzPB5Hv13I"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Gazo&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 87
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Guy2bezbar&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/07h4CCFmlXkwx0g4PL5Uuh"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 92414
+                    },
+                    "genres": [
+                        "french hip hop",
+                        "pop urbaine",
+                        "rap francais"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/07h4CCFmlXkwx0g4PL5Uuh",
+                    "id": "07h4CCFmlXkwx0g4PL5Uuh",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5ebaa426b6cc01b63c57dbaf780",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174aa426b6cc01b63c57dbaf780",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178aa426b6cc01b63c57dbaf780",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Guy2bezbar",
+                    "popularity": 73,
+                    "type": "artist",
+                    "uri": "spotify:artist:07h4CCFmlXkwx0g4PL5Uuh"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Guy2bezbar&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 3
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Yamar&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1UbpWtdgrDJ3wHVmIMDpWY"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 153
+                    },
+                    "genres": [],
+                    "href": "https://api.spotify.com/v1/artists/1UbpWtdgrDJ3wHVmIMDpWY",
+                    "id": "1UbpWtdgrDJ3wHVmIMDpWY",
+                    "images": [],
+                    "name": "Yamar",
+                    "popularity": 23,
+                    "type": "artist",
+                    "uri": "spotify:artist:1UbpWtdgrDJ3wHVmIMDpWY"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Yamar&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 37
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Oby+One&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/5DEZRgl7H5KUdzo5YGvyk7"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 31109
+                    },
+                    "genres": [],
+                    "href": "https://api.spotify.com/v1/artists/5DEZRgl7H5KUdzo5YGvyk7",
+                    "id": "5DEZRgl7H5KUdzo5YGvyk7",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb095916d2266f830297809110",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174095916d2266f830297809110",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178095916d2266f830297809110",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Oby One",
+                    "popularity": 55,
+                    "type": "artist",
+                    "uri": "spotify:artist:5DEZRgl7H5KUdzo5YGvyk7"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Oby+One&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 4
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=DA+Uzi&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3xEJ7cDz5rdg6VM8E6Mqhf"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 515929
+                    },
+                    "genres": [
+                        "french hip hop",
+                        "pop urbaine",
+                        "rap francais"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/3xEJ7cDz5rdg6VM8E6Mqhf",
+                    "id": "3xEJ7cDz5rdg6VM8E6Mqhf",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb51d300aa3ce2142d1da129ea",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab6761610000517451d300aa3ce2142d1da129ea",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f17851d300aa3ce2142d1da129ea",
+                            "width": 160
+                        }
+                    ],
+                    "name": "DA Uzi",
+                    "popularity": 68,
+                    "type": "artist",
+                    "uri": "spotify:artist:3xEJ7cDz5rdg6VM8E6Mqhf"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=DA+Uzi&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 15
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Sky&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4utLUGcTvOJFr6aqIJtYWV"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 502824
+                    },
+                    "genres": [
+                        "piano rock"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/4utLUGcTvOJFr6aqIJtYWV",
+                    "id": "4utLUGcTvOJFr6aqIJtYWV",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb27a494c15f30ca2f08ddd05b",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab6761610000517427a494c15f30ca2f08ddd05b",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f17827a494c15f30ca2f08ddd05b",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Skylar Grey",
+                    "popularity": 75,
+                    "type": "artist",
+                    "uri": "spotify:artist:4utLUGcTvOJFr6aqIJtYWV"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Sky&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 10001
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Kaza&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4MRRW42s9ymwa5zu4xTKJh"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 231795
+                    },
+                    "genres": [
+                        "francoton",
+                        "french hip hop",
+                        "pop urbaine",
+                        "rap calme",
+                        "rap francais"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/4MRRW42s9ymwa5zu4xTKJh",
+                    "id": "4MRRW42s9ymwa5zu4xTKJh",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5ebd4933b8397e33f98c3e131bb",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174d4933b8397e33f98c3e131bb",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178d4933b8397e33f98c3e131bb",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Kaza",
+                    "popularity": 66,
+                    "type": "artist",
+                    "uri": "spotify:artist:4MRRW42s9ymwa5zu4xTKJh"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Kaza&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 709
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Imen+Es&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/7CW7QdOgRStOg7JktRuZ3E"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 552679
+                    },
+                    "genres": [
+                        "francoton",
+                        "pop urbaine"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/7CW7QdOgRStOg7JktRuZ3E",
+                    "id": "7CW7QdOgRStOg7JktRuZ3E",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb4777869255d4723fbb12d6da",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab676161000051744777869255d4723fbb12d6da",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f1784777869255d4723fbb12d6da",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Imen Es",
+                    "popularity": 68,
+                    "type": "artist",
+                    "uri": "spotify:artist:7CW7QdOgRStOg7JktRuZ3E"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Imen+Es&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 2
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Lynda&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2GlEiSHYEKlq9cUYDa9oZb"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 197667
+                    },
+                    "genres": [
+                        "francoton",
+                        "pop urbaine"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/2GlEiSHYEKlq9cUYDa9oZb",
+                    "id": "2GlEiSHYEKlq9cUYDa9oZb",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb801507dedb711b28d8692824",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174801507dedb711b28d8692824",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178801507dedb711b28d8692824",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Lynda",
+                    "popularity": 66,
+                    "type": "artist",
+                    "uri": "spotify:artist:2GlEiSHYEKlq9cUYDa9oZb"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Lynda&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 213
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Kofs&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/5RaQ9nmVGoTye2SI76x3yw"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 277234
+                    },
+                    "genres": [
+                        "francoton",
+                        "french hip hop",
+                        "pop urbaine",
+                        "rap francais",
+                        "rap marseille"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/5RaQ9nmVGoTye2SI76x3yw",
+                    "id": "5RaQ9nmVGoTye2SI76x3yw",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb1556d6af1b0fc4e1b505a663",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab676161000051741556d6af1b0fc4e1b505a663",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f1781556d6af1b0fc4e1b505a663",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Kofs",
+                    "popularity": 70,
+                    "type": "artist",
+                    "uri": "spotify:artist:5RaQ9nmVGoTye2SI76x3yw"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Kofs&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 12
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Sam%27s&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3mvmdWXXKKpUrmYTvdALyS"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 29404
+                    },
+                    "genres": [
+                        "french hip hop",
+                        "pop urbaine",
+                        "rap francais"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/3mvmdWXXKKpUrmYTvdALyS",
+                    "id": "3mvmdWXXKKpUrmYTvdALyS",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb761fb90327b0e75c3697b97a",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174761fb90327b0e75c3697b97a",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178761fb90327b0e75c3697b97a",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Sam's",
+                    "popularity": 51,
+                    "type": "artist",
+                    "uri": "spotify:artist:3mvmdWXXKKpUrmYTvdALyS"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Sam%27s&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 10001
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Naps&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6W5uA6CNMf3hd2j4a2XWCx"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 1563043
+                    },
+                    "genres": [
+                        "francoton",
+                        "french hip hop",
+                        "pop urbaine",
+                        "rap marseille"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/6W5uA6CNMf3hd2j4a2XWCx",
+                    "id": "6W5uA6CNMf3hd2j4a2XWCx",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5ebda11b6067baa72f414c60337",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174da11b6067baa72f414c60337",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178da11b6067baa72f414c60337",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Naps",
+                    "popularity": 78,
+                    "type": "artist",
+                    "uri": "spotify:artist:6W5uA6CNMf3hd2j4a2XWCx"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Naps&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 119
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Kalash+Criminel&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6ytOHdKh4xt4YvF7tz8Zcv"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 1000655
+                    },
+                    "genres": [
+                        "french hip hop",
+                        "pop urbaine",
+                        "rap francais"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/6ytOHdKh4xt4YvF7tz8Zcv",
+                    "id": "6ytOHdKh4xt4YvF7tz8Zcv",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb77cd70c900c730058d785e95",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab6761610000517477cd70c900c730058d785e95",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f17877cd70c900c730058d785e95",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Kalash Criminel",
+                    "popularity": 66,
+                    "type": "artist",
+                    "uri": "spotify:artist:6ytOHdKh4xt4YvF7tz8Zcv"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Kalash+Criminel&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 3
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Didine+Canon+16&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2aVPTWc4WYc7b384eatevF"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 378487
+                    },
+                    "genres": [
+                        "rai",
+                        "rap algerien"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/2aVPTWc4WYc7b384eatevF",
+                    "id": "2aVPTWc4WYc7b384eatevF",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eba7c730e7145f2baab2e6efcc",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174a7c730e7145f2baab2e6efcc",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178a7c730e7145f2baab2e6efcc",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Didine Canon 16",
+                    "popularity": 54,
+                    "type": "artist",
+                    "uri": "spotify:artist:2aVPTWc4WYc7b384eatevF"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Didine+Canon+16&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 2
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Booba&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/58wXmynHaAWI5hwlPZP3qL"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 2305223
+                    },
+                    "genres": [
+                        "francoton",
+                        "french hip hop",
+                        "old school rap francais",
+                        "pop urbaine",
+                        "rap conscient"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/58wXmynHaAWI5hwlPZP3qL",
+                    "id": "58wXmynHaAWI5hwlPZP3qL",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb96b3ab10e89bad078d125c3a",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab6761610000517496b3ab10e89bad078d125c3a",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f17896b3ab10e89bad078d125c3a",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Booba",
+                    "popularity": 75,
+                    "type": "artist",
+                    "uri": "spotify:artist:58wXmynHaAWI5hwlPZP3qL"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Booba&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 81
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Sifax&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/5dacK0fiMwLoV93yBdUrZK"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 90602
+                    },
+                    "genres": [
+                        "french hip hop",
+                        "pop urbaine",
+                        "rap francais"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/5dacK0fiMwLoV93yBdUrZK",
+                    "id": "5dacK0fiMwLoV93yBdUrZK",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5ebc26ebba43eb2d5a21db23003",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174c26ebba43eb2d5a21db23003",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178c26ebba43eb2d5a21db23003",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Sifax",
+                    "popularity": 50,
+                    "type": "artist",
+                    "uri": "spotify:artist:5dacK0fiMwLoV93yBdUrZK"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Sifax&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 2
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Mc+Pissco&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6rgVYqcz8Onax5eUhwVNhG"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 34288
+                    },
+                    "genres": [
+                        "rap algerien"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/6rgVYqcz8Onax5eUhwVNhG",
+                    "id": "6rgVYqcz8Onax5eUhwVNhG",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb08dea25d2268270657b33375",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab6761610000517408dea25d2268270657b33375",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f17808dea25d2268270657b33375",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Mc Pissco",
+                    "popularity": 33,
+                    "type": "artist",
+                    "uri": "spotify:artist:6rgVYqcz8Onax5eUhwVNhG"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Mc+Pissco&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 3
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Soolking&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0GgY7hjMoGDsX8ZDe2mwds"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 2884483
+                    },
+                    "genres": [
+                        "francoton",
+                        "french hip hop",
+                        "pop urbaine",
+                        "rap algerien",
+                        "rap tunisien"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/0GgY7hjMoGDsX8ZDe2mwds",
+                    "id": "0GgY7hjMoGDsX8ZDe2mwds",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb58dc66bbe8d0a0d2d9e3c980",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab6761610000517458dc66bbe8d0a0d2d9e3c980",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f17858dc66bbe8d0a0d2d9e3c980",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Soolking",
+                    "popularity": 71,
+                    "type": "artist",
+                    "uri": "spotify:artist:0GgY7hjMoGDsX8ZDe2mwds"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Soolking&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 2
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=L%27Allemand&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3BX2N7cc1OrBUJQiiei3On"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 262064
+                    },
+                    "genres": [
+                        "francoton",
+                        "french hip hop",
+                        "pop urbaine",
+                        "rap francais",
+                        "rap lyonnais"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/3BX2N7cc1OrBUJQiiei3On",
+                    "id": "3BX2N7cc1OrBUJQiiei3On",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb06c8071978aee904e6667081",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab6761610000517406c8071978aee904e6667081",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f17806c8071978aee904e6667081",
+                            "width": 160
+                        }
+                    ],
+                    "name": "L'Allemand",
+                    "popularity": 58,
+                    "type": "artist",
+                    "uri": "spotify:artist:3BX2N7cc1OrBUJQiiei3On"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=L%27Allemand&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 14
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=OBOY&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/66Ok6bgC570sHkw08N20pZ"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 437206
+                    },
+                    "genres": [
+                        "french hip hop",
+                        "pop urbaine"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/66Ok6bgC570sHkw08N20pZ",
+                    "id": "66Ok6bgC570sHkw08N20pZ",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb3188b84121ff7f0f8512f13c",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab676161000051743188b84121ff7f0f8512f13c",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f1783188b84121ff7f0f8512f13c",
+                            "width": 160
+                        }
+                    ],
+                    "name": "OBOY",
+                    "popularity": 75,
+                    "type": "artist",
+                    "uri": "spotify:artist:66Ok6bgC570sHkw08N20pZ"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=OBOY&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 91
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=S.Pri+Noir&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/5olcgTzelGdyP1rHRLyWgs"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 463683
+                    },
+                    "genres": [
+                        "francoton",
+                        "french hip hop",
+                        "pop urbaine",
+                        "rap francais"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/5olcgTzelGdyP1rHRLyWgs",
+                    "id": "5olcgTzelGdyP1rHRLyWgs",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5ebcee2616a8667cddde04b2f05",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174cee2616a8667cddde04b2f05",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178cee2616a8667cddde04b2f05",
+                            "width": 160
+                        }
+                    ],
+                    "name": "S.Pri Noir",
+                    "popularity": 65,
+                    "type": "artist",
+                    "uri": "spotify:artist:5olcgTzelGdyP1rHRLyWgs"
+                }
+            ],
+            "limit": 1,
+            "next": null,
+            "offset": 0,
+            "previous": null,
+            "total": 1
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Soprano&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2RJBv9wXbW6m539q9NOfW1"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 2513811
+                    },
+                    "genres": [
+                        "francoton",
+                        "french hip hop",
+                        "french pop",
+                        "rap marseille"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/2RJBv9wXbW6m539q9NOfW1",
+                    "id": "2RJBv9wXbW6m539q9NOfW1",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5ebc240ec71420d2f557cc6f5a5",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174c240ec71420d2f557cc6f5a5",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178c240ec71420d2f557cc6f5a5",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Soprano",
+                    "popularity": 68,
+                    "type": "artist",
+                    "uri": "spotify:artist:2RJBv9wXbW6m539q9NOfW1"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Soprano&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 673
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=RK&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2s7fZ34RK8RUJQ2ewsh6I5"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 1459821
+                    },
+                    "genres": [
+                        "francoton",
+                        "french hip hop",
+                        "pop urbaine",
+                        "rap conscient",
+                        "rap francais"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/2s7fZ34RK8RUJQ2ewsh6I5",
+                    "id": "2s7fZ34RK8RUJQ2ewsh6I5",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5ebffc0d9f06859efdc5c178b0e",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174ffc0d9f06859efdc5c178b0e",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178ffc0d9f06859efdc5c178b0e",
+                            "width": 160
+                        }
+                    ],
+                    "name": "RK",
+                    "popularity": 63,
+                    "type": "artist",
+                    "uri": "spotify:artist:2s7fZ34RK8RUJQ2ewsh6I5"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=RK&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 1765
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Rim%27K&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2eh8cEKZk4VeruUrGq748D"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 950076
+                    },
+                    "genres": [
+                        "arabic hip hop",
+                        "francoton",
+                        "french hip hop",
+                        "pop urbaine",
+                        "rap algerien",
+                        "rap francais"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/2eh8cEKZk4VeruUrGq748D",
+                    "id": "2eh8cEKZk4VeruUrGq748D",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5ebb24cbcd278704ce4dea3c8b4",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174b24cbcd278704ce4dea3c8b4",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178b24cbcd278704ce4dea3c8b4",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Rim'K",
+                    "popularity": 67,
+                    "type": "artist",
+                    "uri": "spotify:artist:2eh8cEKZk4VeruUrGq748D"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Rim%27K&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 203
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=PLK&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3DCWeG2J1fZeu0Oe6i5Q6m"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 975742
+                    },
+                    "genres": [
+                        "french hip hop",
+                        "pop urbaine",
+                        "rap conscient",
+                        "rap francais"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/3DCWeG2J1fZeu0Oe6i5Q6m",
+                    "id": "3DCWeG2J1fZeu0Oe6i5Q6m",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb6f6901a30f43d03cbc443f81",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab676161000051746f6901a30f43d03cbc443f81",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f1786f6901a30f43d03cbc443f81",
+                            "width": 160
+                        }
+                    ],
+                    "name": "PLK",
+                    "popularity": 77,
+                    "type": "artist",
+                    "uri": "spotify:artist:3DCWeG2J1fZeu0Oe6i5Q6m"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=PLK&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 43
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Green+Montana&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0zhMujl1yB8pkB023Qm4Y2"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 45364
+                    },
+                    "genres": [
+                        "belgian hip hop",
+                        "french hip hop",
+                        "pop urbaine",
+                        "rap belge",
+                        "rap calme",
+                        "rap francais"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/0zhMujl1yB8pkB023Qm4Y2",
+                    "id": "0zhMujl1yB8pkB023Qm4Y2",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb2582ce613773a86fdd6f58cd",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab676161000051742582ce613773a86fdd6f58cd",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f1782582ce613773a86fdd6f58cd",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Green Montana",
+                    "popularity": 62,
+                    "type": "artist",
+                    "uri": "spotify:artist:0zhMujl1yB8pkB023Qm4Y2"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Green+Montana&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 2
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Flenn&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/66OYzK2q18j4EVdMqRtf6L"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 238455
+                    },
+                    "genres": [
+                        "rai",
+                        "rap algerien",
+                        "rap maroc"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/66OYzK2q18j4EVdMqRtf6L",
+                    "id": "66OYzK2q18j4EVdMqRtf6L",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5ebd8dcacdf75afad4117b3ed68",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174d8dcacdf75afad4117b3ed68",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178d8dcacdf75afad4117b3ed68",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Flenn",
+                    "popularity": 56,
+                    "type": "artist",
+                    "uri": "spotify:artist:66OYzK2q18j4EVdMqRtf6L"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Flenn&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 9
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Youppi&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4HXhayOs3iuWCczTsLQOIX"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 99923
+                    },
+                    "genres": [
+                        "rap algerien"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/4HXhayOs3iuWCczTsLQOIX",
+                    "id": "4HXhayOs3iuWCczTsLQOIX",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab67616d0000b2731c14d5e5b812dff96662c924",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/ab67616d00001e021c14d5e5b812dff96662c924",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/ab67616d000048511c14d5e5b812dff96662c924",
+                            "width": 64
+                        }
+                    ],
+                    "name": "Youppi",
+                    "popularity": 43,
+                    "type": "artist",
+                    "uri": "spotify:artist:4HXhayOs3iuWCczTsLQOIX"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Youppi&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 5
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=SAFFWIZZ&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6laKqprdVIDQ1jmOsd1osu"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 2211
+                    },
+                    "genres": [
+                        "rap tunisien"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/6laKqprdVIDQ1jmOsd1osu",
+                    "id": "6laKqprdVIDQ1jmOsd1osu",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5ebeb973aa73f3301aac9e91981",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174eb973aa73f3301aac9e91981",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178eb973aa73f3301aac9e91981",
+                            "width": 160
+                        }
+                    ],
+                    "name": "SAFFWIZZ",
+                    "popularity": 31,
+                    "type": "artist",
+                    "uri": "spotify:artist:6laKqprdVIDQ1jmOsd1osu"
+                }
+            ],
+            "limit": 1,
+            "next": null,
+            "offset": 0,
+            "previous": null,
+            "total": 1
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Hatik&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/05hirnMeVIzCrcUxbrysZU"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 638981
+                    },
+                    "genres": [
+                        "francoton"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/05hirnMeVIzCrcUxbrysZU",
+                    "id": "05hirnMeVIzCrcUxbrysZU",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5ebae546d49099ac22dba716c27",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174ae546d49099ac22dba716c27",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178ae546d49099ac22dba716c27",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Hatik",
+                    "popularity": 68,
+                    "type": "artist",
+                    "uri": "spotify:artist:05hirnMeVIzCrcUxbrysZU"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Hatik&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 22
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Bosh&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6Mm2g25BTeJ6BICPFWGkPg"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 318321
+                    },
+                    "genres": [
+                        "francoton",
+                        "french hip hop",
+                        "pop urbaine",
+                        "rap francais"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/6Mm2g25BTeJ6BICPFWGkPg",
+                    "id": "6Mm2g25BTeJ6BICPFWGkPg",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb183c6885c8344ad773725d1d",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174183c6885c8344ad773725d1d",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178183c6885c8344ad773725d1d",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Bosh",
+                    "popularity": 62,
+                    "type": "artist",
+                    "uri": "spotify:artist:6Mm2g25BTeJ6BICPFWGkPg"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Bosh&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 195
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Kamel+Messaoudi&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/7yLOExurLKWUlj520esuAt"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 26559
+                    },
+                    "genres": [
+                        "chaabi algerien",
+                        "kabyle",
+                        "rai"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/7yLOExurLKWUlj520esuAt",
+                    "id": "7yLOExurLKWUlj520esuAt",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab67616d0000b2735ff3758d45947c5071c6a9d1",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/ab67616d00001e025ff3758d45947c5071c6a9d1",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/ab67616d000048515ff3758d45947c5071c6a9d1",
+                            "width": 64
+                        }
+                    ],
+                    "name": "Kamel Messaoudi",
+                    "popularity": 33,
+                    "type": "artist",
+                    "uri": "spotify:artist:7yLOExurLKWUlj520esuAt"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Kamel+Messaoudi&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 2
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Moha+MMZ&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/13fQpdj4xMKM4gbQUcB00T"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 23132
+                    },
+                    "genres": [
+                        "pop urbaine"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/13fQpdj4xMKM4gbQUcB00T",
+                    "id": "13fQpdj4xMKM4gbQUcB00T",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5ebdff71cc6e6c26d00d6643ac3",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174dff71cc6e6c26d00d6643ac3",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178dff71cc6e6c26d00d6643ac3",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Moha MMZ",
+                    "popularity": 44,
+                    "type": "artist",
+                    "uri": "spotify:artist:13fQpdj4xMKM4gbQUcB00T"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Moha+MMZ&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 2
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Le+Rat+Luciano&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/5QuZ9HdvnXcX8kEG782Phv"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 35579
+                    },
+                    "genres": [
+                        "french hip hop",
+                        "old school rap francais",
+                        "rap marseille"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/5QuZ9HdvnXcX8kEG782Phv",
+                    "id": "5QuZ9HdvnXcX8kEG782Phv",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab67616d0000b273127498829b6ae7283fbaa195",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/ab67616d00001e02127498829b6ae7283fbaa195",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/ab67616d00004851127498829b6ae7283fbaa195",
+                            "width": 64
+                        }
+                    ],
+                    "name": "Le Rat Luciano",
+                    "popularity": 64,
+                    "type": "artist",
+                    "uri": "spotify:artist:5QuZ9HdvnXcX8kEG782Phv"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Le+Rat+Luciano&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 6
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=SDM&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0LKAV3zJ8a8AIGnyc5OvfB"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 96269
+                    },
+                    "genres": [
+                        "french hip hop",
+                        "pop urbaine",
+                        "rap francais"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/0LKAV3zJ8a8AIGnyc5OvfB",
+                    "id": "0LKAV3zJ8a8AIGnyc5OvfB",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb8aa8fba071ecc90fd65a12ec",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab676161000051748aa8fba071ecc90fd65a12ec",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f1788aa8fba071ecc90fd65a12ec",
+                            "width": 160
+                        }
+                    ],
+                    "name": "SDM",
+                    "popularity": 67,
+                    "type": "artist",
+                    "uri": "spotify:artist:0LKAV3zJ8a8AIGnyc5OvfB"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=SDM&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 63
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=DAVINHOR&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3viiIGEp9jn0sKz4K0D6HT"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 4381
+                    },
+                    "genres": [],
+                    "href": "https://api.spotify.com/v1/artists/3viiIGEp9jn0sKz4K0D6HT",
+                    "id": "3viiIGEp9jn0sKz4K0D6HT",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5ebce994a8b496091ce8250610e",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174ce994a8b496091ce8250610e",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178ce994a8b496091ce8250610e",
+                            "width": 160
+                        }
+                    ],
+                    "name": "DAVINHOR",
+                    "popularity": 50,
+                    "type": "artist",
+                    "uri": "spotify:artist:3viiIGEp9jn0sKz4K0D6HT"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=DAVINHOR&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 2
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Django&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/5gU8eqolA1bziWv6e3Wjp3"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 262869
+                    },
+                    "genres": [
+                        "french hip hop",
+                        "pop urbaine",
+                        "rap calme",
+                        "rap francais"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/5gU8eqolA1bziWv6e3Wjp3",
+                    "id": "5gU8eqolA1bziWv6e3Wjp3",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb7ebf481c7269e38273627b7b",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab676161000051747ebf481c7269e38273627b7b",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f1787ebf481c7269e38273627b7b",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Django",
+                    "popularity": 60,
+                    "type": "artist",
+                    "uri": "spotify:artist:5gU8eqolA1bziWv6e3Wjp3"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Django&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 338
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Niska&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/7CUFPNi1TU8RowpnFRSsZV"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 3929101
+                    },
+                    "genres": [
+                        "francoton",
+                        "french hip hop",
+                        "pop urbaine",
+                        "rap francais"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/7CUFPNi1TU8RowpnFRSsZV",
+                    "id": "7CUFPNi1TU8RowpnFRSsZV",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb027ff0ef7c6a7de05221b608",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174027ff0ef7c6a7de05221b608",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178027ff0ef7c6a7de05221b608",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Niska",
+                    "popularity": 77,
+                    "type": "artist",
+                    "uri": "spotify:artist:7CUFPNi1TU8RowpnFRSsZV"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Niska&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 64
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Coyote+Jo+Bastard&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3nDLTOGw0WwwddP3tq5561"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 22893
+                    },
+                    "genres": [
+                        "pop urbaine",
+                        "rap francais"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/3nDLTOGw0WwwddP3tq5561",
+                    "id": "3nDLTOGw0WwwddP3tq5561",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb7791c7780ead1206c04a5d2e",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab676161000051747791c7780ead1206c04a5d2e",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f1787791c7780ead1206c04a5d2e",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Coyote Jo Bastard",
+                    "popularity": 48,
+                    "type": "artist",
+                    "uri": "spotify:artist:3nDLTOGw0WwwddP3tq5561"
+                }
+            ],
+            "limit": 1,
+            "next": null,
+            "offset": 0,
+            "previous": null,
+            "total": 1
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Bad+Meets+Evil&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/77IURH5NC56Jn09QHi76is"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 1311056
+                    },
+                    "genres": [
+                        "detroit hip hop",
+                        "gangster rap",
+                        "hip hop",
+                        "pop rap",
+                        "rap"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/77IURH5NC56Jn09QHi76is",
+                    "id": "77IURH5NC56Jn09QHi76is",
+                    "images": [
+                        {
+                            "height": 706,
+                            "url": "https://i.scdn.co/image/570d46c60960d93990710d83a5f8012217eb7aec",
+                            "width": 999
+                        },
+                        {
+                            "height": 452,
+                            "url": "https://i.scdn.co/image/4f153c72bff6dccba21ffd360fc308f268a23659",
+                            "width": 640
+                        },
+                        {
+                            "height": 141,
+                            "url": "https://i.scdn.co/image/139fd5a828a5e2c4b79d004ad7f42abf9db735c9",
+                            "width": 200
+                        },
+                        {
+                            "height": 45,
+                            "url": "https://i.scdn.co/image/18e647685c9870bdf987cb95aa8673d030fe9932",
+                            "width": 64
+                        }
+                    ],
+                    "name": "Bad Meets Evil",
+                    "popularity": 64,
+                    "type": "artist",
+                    "uri": "spotify:artist:77IURH5NC56Jn09QHi76is"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Bad+Meets+Evil&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 2
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Benab&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0qO3t2MHM5NIEJ5fw9VndY"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 188903
+                    },
+                    "genres": [
+                        "francoton",
+                        "french hip hop",
+                        "pop urbaine",
+                        "rap francais"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/0qO3t2MHM5NIEJ5fw9VndY",
+                    "id": "0qO3t2MHM5NIEJ5fw9VndY",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5ebbd87071b75eb34798ea2b979",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174bd87071b75eb34798ea2b979",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178bd87071b75eb34798ea2b979",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Benab",
+                    "popularity": 64,
+                    "type": "artist",
+                    "uri": "spotify:artist:0qO3t2MHM5NIEJ5fw9VndY"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Benab&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 33
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Ninho&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6Te49r3A6f5BiIgBRxH7FH"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 5261227
+                    },
+                    "genres": [
+                        "french hip hop",
+                        "pop urbaine"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/6Te49r3A6f5BiIgBRxH7FH",
+                    "id": "6Te49r3A6f5BiIgBRxH7FH",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5ebc968daf72ace243d8edcbfc4",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174c968daf72ace243d8edcbfc4",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178c968daf72ace243d8edcbfc4",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Ninho",
+                    "popularity": 86,
+                    "type": "artist",
+                    "uri": "spotify:artist:6Te49r3A6f5BiIgBRxH7FH"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Ninho&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 61
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Dahmane+El+Harrachi&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0WtlXlCzfp2mJyINCsf1tb"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 71921
+                    },
+                    "genres": [
+                        "algerian folk",
+                        "belly dance",
+                        "chaabi algerien",
+                        "rai"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/0WtlXlCzfp2mJyINCsf1tb",
+                    "id": "0WtlXlCzfp2mJyINCsf1tb",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab67616d0000b2735ff3758d45947c5071c6a9d1",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/ab67616d00001e025ff3758d45947c5071c6a9d1",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/ab67616d000048515ff3758d45947c5071c6a9d1",
+                            "width": 64
+                        }
+                    ],
+                    "name": "Dahmane El Harrachi",
+                    "popularity": 37,
+                    "type": "artist",
+                    "uri": "spotify:artist:0WtlXlCzfp2mJyINCsf1tb"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Dahmane+El+Harrachi&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 2
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Journal+du+Foot&type=artist&offset=0&limit=1",
+            "items": [],
+            "limit": 1,
+            "next": null,
+            "offset": 0,
+            "previous": null,
+            "total": 0
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Mourad+Oudia&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1mn45MgHs9Itmy9lpgaLV5"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 7585
+                    },
+                    "genres": [
+                        "rap algerien"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/1mn45MgHs9Itmy9lpgaLV5",
+                    "id": "1mn45MgHs9Itmy9lpgaLV5",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb33a3e8fc0fbacac7e32c5a7d",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab6761610000517433a3e8fc0fbacac7e32c5a7d",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f17833a3e8fc0fbacac7e32c5a7d",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Mourad Oudia",
+                    "popularity": 27,
+                    "type": "artist",
+                    "uri": "spotify:artist:1mn45MgHs9Itmy9lpgaLV5"
+                }
+            ],
+            "limit": 1,
+            "next": null,
+            "offset": 0,
+            "previous": null,
+            "total": 1
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Alkpote&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0QcZD8V0Ug1KINWBSyG0dB"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 204537
+                    },
+                    "genres": [
+                        "french hip hop",
+                        "pop urbaine",
+                        "rap francais",
+                        "rap inde"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/0QcZD8V0Ug1KINWBSyG0dB",
+                    "id": "0QcZD8V0Ug1KINWBSyG0dB",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb7a3f387b45d1ed7ee6cc652a",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab676161000051747a3f387b45d1ed7ee6cc652a",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f1787a3f387b45d1ed7ee6cc652a",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Alkpote",
+                    "popularity": 55,
+                    "type": "artist",
+                    "uri": "spotify:artist:0QcZD8V0Ug1KINWBSyG0dB"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Alkpote&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 4
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=50+Cent&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3q7HBObVc0L8jNeTe5Gofh"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 8158736
+                    },
+                    "genres": [
+                        "east coast hip hop",
+                        "gangster rap",
+                        "hip hop",
+                        "pop rap",
+                        "queens hip hop",
+                        "rap"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/3q7HBObVc0L8jNeTe5Gofh",
+                    "id": "3q7HBObVc0L8jNeTe5Gofh",
+                    "images": [
+                        {
+                            "height": 977,
+                            "url": "https://i.scdn.co/image/dd031b9c5d1b6eba4a691cd89c954255aae787f2",
+                            "width": 781
+                        },
+                        {
+                            "height": 801,
+                            "url": "https://i.scdn.co/image/6f0da41419b31d9d2ba55d2df212f59ad0668118",
+                            "width": 640
+                        },
+                        {
+                            "height": 250,
+                            "url": "https://i.scdn.co/image/df73c0cebe56cafe705ffdba5085ccbd5680bd16",
+                            "width": 200
+                        },
+                        {
+                            "height": 80,
+                            "url": "https://i.scdn.co/image/1a44043542c997ef835c89e185f0cf79d7402153",
+                            "width": 64
+                        }
+                    ],
+                    "name": "50 Cent",
+                    "popularity": 84,
+                    "type": "artist",
+                    "uri": "spotify:artist:3q7HBObVc0L8jNeTe5Gofh"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=50+Cent&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 19
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Gambi&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1lB3I3SI30v2ZOpR4XQqzJ"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 973530
+                    },
+                    "genres": [
+                        "francoton",
+                        "french hip hop",
+                        "pop urbaine",
+                        "rap francais"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/1lB3I3SI30v2ZOpR4XQqzJ",
+                    "id": "1lB3I3SI30v2ZOpR4XQqzJ",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5ebaf2a75b7fc6c0ace218c652d",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174af2a75b7fc6c0ace218c652d",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178af2a75b7fc6c0ace218c652d",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Gambi",
+                    "popularity": 62,
+                    "type": "artist",
+                    "uri": "spotify:artist:1lB3I3SI30v2ZOpR4XQqzJ"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Gambi&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 1003
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Babylone&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4sP2g2ixZhad5ZlxPirn8i"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 52760
+                    },
+                    "genres": [
+                        "rif"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/4sP2g2ixZhad5ZlxPirn8i",
+                    "id": "4sP2g2ixZhad5ZlxPirn8i",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab67616d0000b27374e38fd821c37284f5edb0ce",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/ab67616d00001e0274e38fd821c37284f5edb0ce",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/ab67616d0000485174e38fd821c37284f5edb0ce",
+                            "width": 64
+                        }
+                    ],
+                    "name": "Babylone",
+                    "popularity": 45,
+                    "type": "artist",
+                    "uri": "spotify:artist:4sP2g2ixZhad5ZlxPirn8i"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Babylone&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 12
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Luv+Resval&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/5l8WyvJ50fdSghK2ySNq1y"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 91714
+                    },
+                    "genres": [
+                        "french hip hop",
+                        "pop urbaine",
+                        "rap francais"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/5l8WyvJ50fdSghK2ySNq1y",
+                    "id": "5l8WyvJ50fdSghK2ySNq1y",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb86b7c4cf8ae68e5f9dab7284",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab6761610000517486b7c4cf8ae68e5f9dab7284",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f17886b7c4cf8ae68e5f9dab7284",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Luv Resval",
+                    "popularity": 61,
+                    "type": "artist",
+                    "uri": "spotify:artist:5l8WyvJ50fdSghK2ySNq1y"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Luv+Resval&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 3
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Trap+King&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/7FyFexQUGbmAuOBz975Ieu"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 101218
+                    },
+                    "genres": [
+                        "rai",
+                        "rap algerien"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/7FyFexQUGbmAuOBz975Ieu",
+                    "id": "7FyFexQUGbmAuOBz975Ieu",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb96bf4d058e816ab726b61e9d",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab6761610000517496bf4d058e816ab726b61e9d",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f17896bf4d058e816ab726b61e9d",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Trap King",
+                    "popularity": 41,
+                    "type": "artist",
+                    "uri": "spotify:artist:7FyFexQUGbmAuOBz975Ieu"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Trap+King&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 43
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Skorap&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4nNmuXpMzX0V6sFKn8YWc7"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 54236
+                    },
+                    "genres": [
+                        "rap algerien"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/4nNmuXpMzX0V6sFKn8YWc7",
+                    "id": "4nNmuXpMzX0V6sFKn8YWc7",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb599611bb3b5c282a6bbe6247",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174599611bb3b5c282a6bbe6247",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178599611bb3b5c282a6bbe6247",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Skorap",
+                    "popularity": 44,
+                    "type": "artist",
+                    "uri": "spotify:artist:4nNmuXpMzX0V6sFKn8YWc7"
+                }
+            ],
+            "limit": 1,
+            "next": null,
+            "offset": 0,
+            "previous": null,
+            "total": 1
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Ktyb&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1i85OjmZoPeQqdnqX0NXBa"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 27601
+                    },
+                    "genres": [
+                        "rap tunisien"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/1i85OjmZoPeQqdnqX0NXBa",
+                    "id": "1i85OjmZoPeQqdnqX0NXBa",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb0e9b5416762ca19819ee02df",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab676161000051740e9b5416762ca19819ee02df",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f1780e9b5416762ca19819ee02df",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Ktyb",
+                    "popularity": 42,
+                    "type": "artist",
+                    "uri": "spotify:artist:1i85OjmZoPeQqdnqX0NXBa"
+                }
+            ],
+            "limit": 1,
+            "next": null,
+            "offset": 0,
+            "previous": null,
+            "total": 1
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=THABITI&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/5Ea2kDQeQNQrIcI6tCthaQ"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 28540
+                    },
+                    "genres": [
+                        "francoton",
+                        "french hip hop",
+                        "pop urbaine",
+                        "rap francais",
+                        "rap marseille"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/5Ea2kDQeQNQrIcI6tCthaQ",
+                    "id": "5Ea2kDQeQNQrIcI6tCthaQ",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb57fc2d6f259271d279994813",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab6761610000517457fc2d6f259271d279994813",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f17857fc2d6f259271d279994813",
+                            "width": 160
+                        }
+                    ],
+                    "name": "THABITI",
+                    "popularity": 63,
+                    "type": "artist",
+                    "uri": "spotify:artist:5Ea2kDQeQNQrIcI6tCthaQ"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=THABITI&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 5
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Leto&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6HCBnyTBSLdb3TFn2ayulY"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 461727
+                    },
+                    "genres": [
+                        "french hip hop",
+                        "pop urbaine",
+                        "rap francais"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/6HCBnyTBSLdb3TFn2ayulY",
+                    "id": "6HCBnyTBSLdb3TFn2ayulY",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb9be5715c092404ef66664a8f",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab676161000051749be5715c092404ef66664a8f",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f1789be5715c092404ef66664a8f",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Leto",
+                    "popularity": 72,
+                    "type": "artist",
+                    "uri": "spotify:artist:6HCBnyTBSLdb3TFn2ayulY"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Leto&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 251
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=EMP1RE&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2aFZFL6yee8SaztShh7AST"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 16114
+                    },
+                    "genres": [
+                        "rap tunisien"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/2aFZFL6yee8SaztShh7AST",
+                    "id": "2aFZFL6yee8SaztShh7AST",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb61d6a5aaef302343c2c6da51",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab6761610000517461d6a5aaef302343c2c6da51",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f17861d6a5aaef302343c2c6da51",
+                            "width": 160
+                        }
+                    ],
+                    "name": "EMP1RE",
+                    "popularity": 33,
+                    "type": "artist",
+                    "uri": "spotify:artist:2aFZFL6yee8SaztShh7AST"
+                }
+            ],
+            "limit": 1,
+            "next": null,
+            "offset": 0,
+            "previous": null,
+            "total": 1
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Dabl+De&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/5aCqsScJyvSLpNLCl9ZikA"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 16655
+                    },
+                    "genres": [
+                        "rap tunisien"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/5aCqsScJyvSLpNLCl9ZikA",
+                    "id": "5aCqsScJyvSLpNLCl9ZikA",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5ebdaebf4bbda4c76d5359ffc75",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174daebf4bbda4c76d5359ffc75",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178daebf4bbda4c76d5359ffc75",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Dabl De",
+                    "popularity": 37,
+                    "type": "artist",
+                    "uri": "spotify:artist:5aCqsScJyvSLpNLCl9ZikA"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Dabl+De&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 9
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Mons&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4TnGh5PKbSjpYqpIdlW5nz"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 3983744
+                    },
+                    "genres": [
+                        "k-pop",
+                        "k-pop boy group"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/4TnGh5PKbSjpYqpIdlW5nz",
+                    "id": "4TnGh5PKbSjpYqpIdlW5nz",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5ebd86145072666f72cc5e833d8",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174d86145072666f72cc5e833d8",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178d86145072666f72cc5e833d8",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Monsta X",
+                    "popularity": 73,
+                    "type": "artist",
+                    "uri": "spotify:artist:4TnGh5PKbSjpYqpIdlW5nz"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Mons&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 4450
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Sicario&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0ajjnGmVt2aVGD70lDbVl6"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 693
+                    },
+                    "genres": [],
+                    "href": "https://api.spotify.com/v1/artists/0ajjnGmVt2aVGD70lDbVl6",
+                    "id": "0ajjnGmVt2aVGD70lDbVl6",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab67616d0000b273c2d436d4d691d8263942ba02",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/ab67616d00001e02c2d436d4d691d8263942ba02",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/ab67616d00004851ab103a319c9ef27b19a2feac",
+                            "width": 64
+                        }
+                    ],
+                    "name": "Sicario",
+                    "popularity": 43,
+                    "type": "artist",
+                    "uri": "spotify:artist:0ajjnGmVt2aVGD70lDbVl6"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Sicario&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 109
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=91+All+Stars&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2NXFKDjgSuIyiUUH2PEVHG"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 10890
+                    },
+                    "genres": [],
+                    "href": "https://api.spotify.com/v1/artists/2NXFKDjgSuIyiUUH2PEVHG",
+                    "id": "2NXFKDjgSuIyiUUH2PEVHG",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb125d399554988a18f072d713",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174125d399554988a18f072d713",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178125d399554988a18f072d713",
+                            "width": 160
+                        }
+                    ],
+                    "name": "91 All Stars",
+                    "popularity": 43,
+                    "type": "artist",
+                    "uri": "spotify:artist:2NXFKDjgSuIyiUUH2PEVHG"
+                }
+            ],
+            "limit": 1,
+            "next": null,
+            "offset": 0,
+            "previous": null,
+            "total": 1
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Kendji+Girac&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4IS4EyXNmiI2w5SRCjMtEF"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 1267036
+                    },
+                    "genres": [
+                        "francoton",
+                        "french pop"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/4IS4EyXNmiI2w5SRCjMtEF",
+                    "id": "4IS4EyXNmiI2w5SRCjMtEF",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5ebf57f65f909c1d9fc4f3bd028",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174f57f65f909c1d9fc4f3bd028",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178f57f65f909c1d9fc4f3bd028",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Kendji Girac",
+                    "popularity": 66,
+                    "type": "artist",
+                    "uri": "spotify:artist:4IS4EyXNmiI2w5SRCjMtEF"
+                }
+            ],
+            "limit": 1,
+            "next": null,
+            "offset": 0,
+            "previous": null,
+            "total": 1
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Mister+V&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/5qisLjDrKoHMI9zOK2hfzs"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 473000
+                    },
+                    "genres": [
+                        "francoton",
+                        "french hip hop",
+                        "pop urbaine",
+                        "rap francais"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/5qisLjDrKoHMI9zOK2hfzs",
+                    "id": "5qisLjDrKoHMI9zOK2hfzs",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb9ec1b8ac3dec9cdc603248c8",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab676161000051749ec1b8ac3dec9cdc603248c8",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f1789ec1b8ac3dec9cdc603248c8",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Mister V",
+                    "popularity": 61,
+                    "type": "artist",
+                    "uri": "spotify:artist:5qisLjDrKoHMI9zOK2hfzs"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Mister+V&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 51
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Niro&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1wAtSe79kItIb9nf5EhI2Q"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 738181
+                    },
+                    "genres": [
+                        "francoton",
+                        "french hip hop",
+                        "pop urbaine",
+                        "rap francais"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/1wAtSe79kItIb9nf5EhI2Q",
+                    "id": "1wAtSe79kItIb9nf5EhI2Q",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5ebf2a6a87353dc2d700f2532c2",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174f2a6a87353dc2d700f2532c2",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178f2a6a87353dc2d700f2532c2",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Niro",
+                    "popularity": 68,
+                    "type": "artist",
+                    "uri": "spotify:artist:1wAtSe79kItIb9nf5EhI2Q"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Niro&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 327
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Timal&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2ptKt4yP4mYRZmvi09JYyi"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 852709
+                    },
+                    "genres": [
+                        "francoton",
+                        "french hip hop",
+                        "pop urbaine",
+                        "rap francais"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/2ptKt4yP4mYRZmvi09JYyi",
+                    "id": "2ptKt4yP4mYRZmvi09JYyi",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb2894e77e10d01dcd07857f6e",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab676161000051742894e77e10d01dcd07857f6e",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f1782894e77e10d01dcd07857f6e",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Timal",
+                    "popularity": 69,
+                    "type": "artist",
+                    "uri": "spotify:artist:2ptKt4yP4mYRZmvi09JYyi"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Timal&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 38
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=MC+Lama&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/7N2IupIlbJWXROZ4YoEPED"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 2791
+                    },
+                    "genres": [],
+                    "href": "https://api.spotify.com/v1/artists/7N2IupIlbJWXROZ4YoEPED",
+                    "id": "7N2IupIlbJWXROZ4YoEPED",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab67616d0000b273f7ef5c40a0a4a1615e8c4006",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/ab67616d00001e02f7ef5c40a0a4a1615e8c4006",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/ab67616d00004851f7ef5c40a0a4a1615e8c4006",
+                            "width": 64
+                        }
+                    ],
+                    "name": "MC Lama",
+                    "popularity": 26,
+                    "type": "artist",
+                    "uri": "spotify:artist:7N2IupIlbJWXROZ4YoEPED"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=MC+Lama&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 16
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Icowesh&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1BZgmBEg3ZjnidmUBTXHBk"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 17911
+                    },
+                    "genres": [
+                        "rap algerien"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/1BZgmBEg3ZjnidmUBTXHBk",
+                    "id": "1BZgmBEg3ZjnidmUBTXHBk",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb03a58c79cfd997d476beeb41",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab6761610000517403a58c79cfd997d476beeb41",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f17803a58c79cfd997d476beeb41",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Icowesh",
+                    "popularity": 31,
+                    "type": "artist",
+                    "uri": "spotify:artist:1BZgmBEg3ZjnidmUBTXHBk"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Icowesh&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 3
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=H%27M&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6pg4S5KTCPiEBp0rSWsaI6"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 5753
+                    },
+                    "genres": [],
+                    "href": "https://api.spotify.com/v1/artists/6pg4S5KTCPiEBp0rSWsaI6",
+                    "id": "6pg4S5KTCPiEBp0rSWsaI6",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab67616d0000b273e4208a43abe8c4a09fcfa654",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/ab67616d00001e02e4208a43abe8c4a09fcfa654",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/ab67616d00004851e4208a43abe8c4a09fcfa654",
+                            "width": 64
+                        }
+                    ],
+                    "name": "HMZ",
+                    "popularity": 35,
+                    "type": "artist",
+                    "uri": "spotify:artist:6pg4S5KTCPiEBp0rSWsaI6"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=H%27M&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 10002
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Many+GT&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2LLsjnICi6T3Q6Ej0MoHaV"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 869
+                    },
+                    "genres": [
+                        "rap lyonnais",
+                        "rap marseille"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/2LLsjnICi6T3Q6Ej0MoHaV",
+                    "id": "2LLsjnICi6T3Q6Ej0MoHaV",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab67616d0000b2736245e9febf6691f6c2006888",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/ab67616d00001e026245e9febf6691f6c2006888",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/ab67616d000048516245e9febf6691f6c2006888",
+                            "width": 64
+                        }
+                    ],
+                    "name": "Many GT",
+                    "popularity": 29,
+                    "type": "artist",
+                    "uri": "spotify:artist:2LLsjnICi6T3Q6Ej0MoHaV"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Many+GT&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 2
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=21+Tach&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/728dZrvljhCFhPJZvsEtDc"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 46993
+                    },
+                    "genres": [
+                        "rap maroc"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/728dZrvljhCFhPJZvsEtDc",
+                    "id": "728dZrvljhCFhPJZvsEtDc",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5ebb87f0b494b44adc16ba6ff5b",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174b87f0b494b44adc16ba6ff5b",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178b87f0b494b44adc16ba6ff5b",
+                            "width": 160
+                        }
+                    ],
+                    "name": "21 Tach",
+                    "popularity": 39,
+                    "type": "artist",
+                    "uri": "spotify:artist:728dZrvljhCFhPJZvsEtDc"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=21+Tach&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 3
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Bastos&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/7uo4tqKi5ojR6nbWWQrP7O"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 457
+                    },
+                    "genres": [],
+                    "href": "https://api.spotify.com/v1/artists/7uo4tqKi5ojR6nbWWQrP7O",
+                    "id": "7uo4tqKi5ojR6nbWWQrP7O",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab67616d0000b2734faf24a256c0fca576ba4ae9",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/ab67616d00001e024faf24a256c0fca576ba4ae9",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/ab67616d000048514faf24a256c0fca576ba4ae9",
+                            "width": 64
+                        }
+                    ],
+                    "name": "Bastos",
+                    "popularity": 22,
+                    "type": "artist",
+                    "uri": "spotify:artist:7uo4tqKi5ojR6nbWWQrP7O"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Bastos&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 305
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Damso&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2UwqpfQtNuhBwviIC0f2ie"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 3303191
+                    },
+                    "genres": [
+                        "belgian hip hop",
+                        "french hip hop",
+                        "pop urbaine",
+                        "rap belge",
+                        "rap conscient"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/2UwqpfQtNuhBwviIC0f2ie",
+                    "id": "2UwqpfQtNuhBwviIC0f2ie",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb6d1dac9cd0d24eee082f5410",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab676161000051746d1dac9cd0d24eee082f5410",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f1786d1dac9cd0d24eee082f5410",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Damso",
+                    "popularity": 77,
+                    "type": "artist",
+                    "uri": "spotify:artist:2UwqpfQtNuhBwviIC0f2ie"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Damso&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 18
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Sofiane&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6qFt3TjvxMt77YGsktWG8Z"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 1268429
+                    },
+                    "genres": [
+                        "francoton",
+                        "french hip hop",
+                        "french pop",
+                        "pop urbaine",
+                        "rap conscient",
+                        "rap francais"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/6qFt3TjvxMt77YGsktWG8Z",
+                    "id": "6qFt3TjvxMt77YGsktWG8Z",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb4d63230bd8fcbc83851c678f",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab676161000051744d63230bd8fcbc83851c678f",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f1784d63230bd8fcbc83851c678f",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Sofiane",
+                    "popularity": 67,
+                    "type": "artist",
+                    "uri": "spotify:artist:6qFt3TjvxMt77YGsktWG8Z"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Sofiane&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 70
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Djadja+&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/5hREZP0zTQbTLkZ2M8RS4v"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 1645369
+                    },
+                    "genres": [
+                        "french hip hop",
+                        "pop urbaine",
+                        "rap conscient",
+                        "rap francais"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/5hREZP0zTQbTLkZ2M8RS4v",
+                    "id": "5hREZP0zTQbTLkZ2M8RS4v",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5ebe21e08fc6cc1d16a8b879638",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174e21e08fc6cc1d16a8b879638",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178e21e08fc6cc1d16a8b879638",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Djadja & Dinaz",
+                    "popularity": 74,
+                    "type": "artist",
+                    "uri": "spotify:artist:5hREZP0zTQbTLkZ2M8RS4v"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Djadja+&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 6
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=DENZO&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1pQtc9O0CKJYhvaICw39z9"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 100541
+                    },
+                    "genres": [
+                        "french hip hop",
+                        "pop urbaine",
+                        "rap francais"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/1pQtc9O0CKJYhvaICw39z9",
+                    "id": "1pQtc9O0CKJYhvaICw39z9",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5ebf08085d1d1c259cd049126a7",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174f08085d1d1c259cd049126a7",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178f08085d1d1c259cd049126a7",
+                            "width": 160
+                        }
+                    ],
+                    "name": "DENZO",
+                    "popularity": 54,
+                    "type": "artist",
+                    "uri": "spotify:artist:1pQtc9O0CKJYhvaICw39z9"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=DENZO&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 68
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Lefa&type=artist&offset=0&limit=1",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/25yJrwrn5I0EUdQEiTtNSO"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 450011
+                    },
+                    "genres": [
+                        "francoton",
+                        "french hip hop",
+                        "pop urbaine",
+                        "rap calme",
+                        "rap conscient",
+                        "rap francais"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/25yJrwrn5I0EUdQEiTtNSO",
+                    "id": "25yJrwrn5I0EUdQEiTtNSO",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5ebabe51acaa7c4aa7695a14191",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174abe51acaa7c4aa7695a14191",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178abe51acaa7c4aa7695a14191",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Lefa",
+                    "popularity": 63,
+                    "type": "artist",
+                    "uri": "spotify:artist:25yJrwrn5I0EUdQEiTtNSO"
+                }
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Lefa&type=artist&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 88
+        }
+    }
+]
