@@ -164,7 +164,7 @@
     </script>
     <div id="visu1"></div>
     <script>
-      d3.json("tracks.json").then(function (json) {
+      d3.json("StreamingHistory0.json").then(function (json) {
         var tab = {};
         for (var i in json) {
           if (json[i].artistName in tab) {
@@ -190,7 +190,7 @@
     </script>
     <div id="visu2" style="display: none;"></div>
     <script>
-      d3.json("tracks.json").then(function (json) {
+      d3.json("StreamingHistory0.json").then(function (json) {
         var tab = {};
         for (var i in json) {
           if (json[i].artistName in tab) {
