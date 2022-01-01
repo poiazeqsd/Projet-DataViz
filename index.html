@@ -6,7 +6,6 @@
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
-      //Bonjour
       function Pack(
         data,
         {
@@ -132,49 +131,25 @@
 
         return svg.node();
       }
-    </script>
-    <style>
-      body {
-        margin: 0;
-        position: fixed;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-      }
-    </style>
-  </head>
 
-  <body>
-    <select name="select-circle" id="visu-select">
-      <option value="visu1">Artists</option>
-      <option value="visu2">Tracks</option>
-    </select>
-    <script>
-      var tab_visus = ["visu1", "visu2"];
-      function affichage(d) {
-        var x = document.getElementById("visu-select");
-        for (var i in tab_visus) {
-          if (!(tab_visus[i] === x.value)) $("#" + tab_visus[i]).hide();
-        }
-        $("#" + x.value).show();
+      function onlyUnique(value, index, self) {
+        return self.indexOf(value) === index;
       }
-      document
-        .getElementById("visu-select")
-        .addEventListener("change", (d) => affichage(d));
-    </script>
-    <div id="visu1"></div>
-    <script>
-      d3.json("StreamingHistory0.json").then(function (json) {
+
+      function onlyUniqueDate(value, index, self) {
+        return self.indexOf(value) === index;
+      }
+
+      function setup_visu1(json) {
         var tab = {};
         for (var i in json) {
           if (json[i].artistName in tab) {
             tab[json[i].artistName] += json[i].msPlayed;
           } else {
-            tab[json[i].artistName] = 0;
+            tab[json[i].artistName] = json[i].msPlayed;
           }
         }
-        
+
         var tab2 = [];
         for (var i in tab) {
           tab2.push({ name: i, msPlayed: tab[i] });
@@ -183,16 +158,14 @@
         var visu = Pack(obj, {
           value: (d) => d.msPlayed,
           label: (d, n) => d.name,
-          width: 1152,
-          height: 1152
+          width: 1200,
+          height: 1200
         });
         var element = document.getElementById("visu1");
         element.appendChild(visu);
-      });
-    </script>
-    <div id="visu2" style="display: none;"></div>
-    <script>
-      d3.json("StreamingHistory0.json").then(function (json) {
+      }
+
+      function setup_visu2(json) {
         var tab = {};
         for (var i in json) {
           if (json[i].artistName in tab) {
@@ -223,12 +196,251 @@
           label: (d, n) => {
             return d.track;
           },
-          width: 1152,
-          height: 1152
+          width: 1200,
+          height: 1200
         });
         var element = document.getElementById("visu2");
         element.appendChild(visu);
+      }
+
+      function setup_visu3(json) {
+        var margin = { top: 10, right: 30, bottom: 40, left: 70 },
+          width = 1400 - margin.left - margin.right,
+          height = 1200 - margin.top - margin.bottom;
+
+        const svg = d3
+          .select("#visu3")
+          .append("svg")
+          .attr("width", width + margin.left + margin.right)
+          .attr("height", height + margin.top + margin.bottom)
+          .append("g")
+          .attr("transform", `translate(${margin.left},${margin.top})`);
+
+        var pp = true;
+        json.forEach((d) => {
+          d.msPlayed = Math.round(d.msPlayed / 1000);
+        });
+
+        var dates = [];
+        var artistes = [];
+        var tab_ms_by_day = {};
+        for (var i in json) {
+          var tt = new Date(json[i].endTime);
+          var tt2 = new Date(tt.getFullYear(), tt.getMonth(), tt.getDate());
+          json[i].endTime = tt2;
+          dates.push(tt2);
+          artistes.push(json[i].artistName);
+
+          if (json[i].endTime in tab_ms_by_day) {
+            tab_ms_by_day[json[i].endTime] += json[i].msPlayed;
+          } else {
+            tab_ms_by_day[json[i].endTime] = json[i].msPlayed;
+          }
+        }
+
+        dates = dates.filter(
+          (date, i, self) =>
+            self.findIndex((d) => d.getTime() == date.getTime()) === i
+        );
+        artistes = artistes.filter(onlyUnique);
+
+        var map1 = new Map();
+
+        var data = [];
+
+        dates.forEach((d) => {
+          var data_date = json.filter((j) => {
+            return j.endTime.getTime() == d.getTime();
+          });
+          var dico = {};
+          dico["date"] = d;
+
+          var tab = [];
+          artistes.forEach((a) => {
+            var art_obt = data_date.filter((jse) => {
+              return jse.artistName === a;
+            });
+            if (art_obt.length != 0) {
+              var somme = 0;
+              art_obt.forEach((s) => {
+                somme += s.msPlayed;
+              });
+              tab.push(somme);
+            } else {
+              tab.push(0);
+            }
+          });
+
+          for (var i in artistes) {
+            dico[artistes[i]] = tab[i];
+          }
+          data.push(dico);
+          map1.set(d, tab);
+        });
+
+        var min_date = d3.min(dates, function (d) {
+          return d;
+        });
+
+        var max_date = d3.max(dates, function (d) {
+          return d;
+        });
+
+        var max_ms = d3.max(Object.values(tab_ms_by_day), function (d) {
+          return d;
+        });
+
+        const x = d3.scaleUtc().domain([min_date, max_date]).range([0, width]);
+
+        const x_axis = d3
+          .axisBottom(x)
+          .tickValues(dates)
+          .tickFormat(d3.timeFormat("%d-%m"));
+
+        svg
+          .append("g")
+          .attr("transform", "translate(0," + height + ")")
+          .call(x_axis)
+          .selectAll("text")
+          .style("text-anchor", "end")
+          .attr("dx", "-.8em")
+          .attr("dy", ".15em")
+          .attr("transform", function (d) {
+            return "rotate(-30)";
+          });
+
+        const y = d3.scaleLinear().domain([0, max_ms]).range([height, 0]);
+        svg.append("g").call(d3.axisLeft(y));
+
+        const color = d3
+          .scaleSequential()
+          .domain([0, artistes.length - 1])
+          .interpolator(d3.interpolateSinebow);
+
+        var stackedData = d3.stack().keys(artistes)(data);
+
+        const jour_en_ms = 86400000;
+
+        const nb_jours = Math.round(
+          (max_date.getTime() - min_date.getTime()) / jour_en_ms
+        );
+
+        const bandwidth = width / nb_jours;
+
+        const tooltip = d3
+          .select("#visu3")
+          .append("div")
+          .style("position", "absolute")
+          .style("visibility", "hidden")
+          .attr("class", "tooltip")
+          .style("background-color", "white")
+          .style("border", "solid")
+          .style("border-width", "1px")
+          .style("border-radius", "5px")
+          .style("padding", "10px");
+
+        const mouseover = function (event, d) {
+          const artiste_name = d3.select(this.parentNode).datum().key;
+          const ms_played = d.data[artiste_name];
+          tooltip
+            .html(
+              "Artiste: " +
+                artiste_name +
+                "<br>" +
+                "secondes écoutées: " +
+                ms_played
+            )
+            .style("visibility", "visible");
+        };
+        const mousemove = function (e, d) {
+          var mousePosition = [e.x, e.y];
+          tooltip
+            .style("transform", "translateY(-55%)")
+            .style("left", e.x + "px")
+            .style("top", e.y - 30 + "px");
+        };
+        const mouseleave = function (event, d) {
+          tooltip.style("visibility", "hidden");
+        };
+
+        svg
+          .append("g")
+          .selectAll("g")
+          .data(stackedData)
+          .join("g")
+          .attr("fill", (d) => color(artistes.indexOf(d.key)))
+          .selectAll("rect")
+          .data((d) => d)
+          .join("rect")
+          .attr("x", (d) => x(d.data.date))
+          .attr("y", (d) => y(d[1]))
+          .attr("height", (d) => y(d[0]) - y(d[1]))
+          .attr("width", bandwidth)
+          .attr("stroke", "grey")
+          .on("mouseover", mouseover)
+          .on("mousemove", mousemove)
+          .on("mouseleave", mouseleave);
+      }
+
+      var tab_visus = ["visu1", "visu2", "visu3"];
+
+      const map_id_visus = new Map();
+
+      map_id_visus.set("1", ["visu1"]);
+      map_id_visus.set("2", ["visu2"]);
+      map_id_visus.set("3", ["visu3"]);
+
+      function affichage(d) {
+        var x = document.getElementById("visu-select");
+        map_id_visus.forEach((k, v) => {
+          k.forEach((s) => {
+            if (v === x.value) {
+              $("#" + s).show();
+            } else {
+              $("#" + k).hide();
+            }
+          });
+        });
+      }
+    </script>
+    <style>
+      body {
+        margin: 0;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <select name="select-circle" id="visu-select">
+      <option value="1">Artists</option>
+      <option value="2">Tracks</option>
+      <option value="3">Ecoutes par jour</option>
+    </select>
+    <script>
+      document
+        .getElementById("visu-select")
+        .addEventListener("change", (d) => affichage(d));
+    </script>
+    <div id="visu1"></div>
+    <div id="visu2" style="display: none;"></div>
+    <div id="visu3" style="display: none;"></div>
+    <script>
+      d3.json("StreamingHistory0.json").then((json) => {
+        setup_visu1(json);
+        setup_visu2(json);
+        setup_visu3(json);
       });
+
+      /*Promise.all([d3.json("StreamingHistory0.json"), d3.json("artists.json")])
+            					.then(function (files) {
+            					})
+            					.catch(function (err) {
+            					});*/
     </script>
   </body>
 </html>
