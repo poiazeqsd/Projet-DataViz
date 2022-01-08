@@ -10,7 +10,7 @@ Promise.all([d3.json("StreamingHistory0.json"), d3.json("artists.json")])
         setup_visu1(json, artistes);
         setup_visu2(json, artistes);
         setup_visu3(json, artistes);
-        setup_visu4(json, artistes_json, artistes);
+        setup_visu4(json, artistes_json, artistes , genres);
     })
     .catch(function (err) {
     });

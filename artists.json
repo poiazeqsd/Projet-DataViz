@@ -1324,53 +1324,6 @@
     },
     {
         "artists": {
-            "href": "https://api.spotify.com/v1/search?query=Sky&type=artist&offset=0&limit=1",
-            "items": [
-                {
-                    "external_urls": {
-                        "spotify": "https://open.spotify.com/artist/4utLUGcTvOJFr6aqIJtYWV"
-                    },
-                    "followers": {
-                        "href": null,
-                        "total": 502824
-                    },
-                    "genres": [
-                        "piano rock"
-                    ],
-                    "href": "https://api.spotify.com/v1/artists/4utLUGcTvOJFr6aqIJtYWV",
-                    "id": "4utLUGcTvOJFr6aqIJtYWV",
-                    "images": [
-                        {
-                            "height": 640,
-                            "url": "https://i.scdn.co/image/ab6761610000e5eb27a494c15f30ca2f08ddd05b",
-                            "width": 640
-                        },
-                        {
-                            "height": 320,
-                            "url": "https://i.scdn.co/image/ab6761610000517427a494c15f30ca2f08ddd05b",
-                            "width": 320
-                        },
-                        {
-                            "height": 160,
-                            "url": "https://i.scdn.co/image/ab6761610000f17827a494c15f30ca2f08ddd05b",
-                            "width": 160
-                        }
-                    ],
-                    "name": "Skylar Grey",
-                    "popularity": 75,
-                    "type": "artist",
-                    "uri": "spotify:artist:4utLUGcTvOJFr6aqIJtYWV"
-                }
-            ],
-            "limit": 1,
-            "next": "https://api.spotify.com/v1/search?query=Sky&type=artist&offset=1&limit=1",
-            "offset": 0,
-            "previous": null,
-            "total": 10001
-        }
-    },
-    {
-        "artists": {
             "href": "https://api.spotify.com/v1/search?query=Kaza&type=artist&offset=0&limit=1",
             "items": [
                 {
@@ -3841,54 +3794,6 @@
             "offset": 0,
             "previous": null,
             "total": 9
-        }
-    },
-    {
-        "artists": {
-            "href": "https://api.spotify.com/v1/search?query=Mons&type=artist&offset=0&limit=1",
-            "items": [
-                {
-                    "external_urls": {
-                        "spotify": "https://open.spotify.com/artist/4TnGh5PKbSjpYqpIdlW5nz"
-                    },
-                    "followers": {
-                        "href": null,
-                        "total": 3983744
-                    },
-                    "genres": [
-                        "k-pop",
-                        "k-pop boy group"
-                    ],
-                    "href": "https://api.spotify.com/v1/artists/4TnGh5PKbSjpYqpIdlW5nz",
-                    "id": "4TnGh5PKbSjpYqpIdlW5nz",
-                    "images": [
-                        {
-                            "height": 640,
-                            "url": "https://i.scdn.co/image/ab6761610000e5ebd86145072666f72cc5e833d8",
-                            "width": 640
-                        },
-                        {
-                            "height": 320,
-                            "url": "https://i.scdn.co/image/ab67616100005174d86145072666f72cc5e833d8",
-                            "width": 320
-                        },
-                        {
-                            "height": 160,
-                            "url": "https://i.scdn.co/image/ab6761610000f178d86145072666f72cc5e833d8",
-                            "width": 160
-                        }
-                    ],
-                    "name": "Monsta X",
-                    "popularity": 73,
-                    "type": "artist",
-                    "uri": "spotify:artist:4TnGh5PKbSjpYqpIdlW5nz"
-                }
-            ],
-            "limit": 1,
-            "next": "https://api.spotify.com/v1/search?query=Mons&type=artist&offset=1&limit=1",
-            "offset": 0,
-            "previous": null,
-            "total": 4450
         }
     },
     {

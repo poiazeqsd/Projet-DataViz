@@ -1,34 +1,33 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Projet Data Viz : Données Spotify</title>
-    <meta charset="utf-8" />
-    <script type="text/javascript" src="https://d3js.org/d3.v7.min.js"></script>
-    <script
-      type="text/javascript"
-      src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-    ></script>
-  </head>
 
-  <body>
-    <select name="select-circle" id="visu-select">
-      <option value="1">Artists</option>
-      <option value="2">Tracks</option>
-      <option value="3">Ecoutes par jour</option>
-      <option value="4">Visu4</option>
-    </select>
+<head>
+  <title>Projet Data Viz : Données Spotify</title>
+  <meta charset="utf-8" />
+  <script type="text/javascript" src="https://d3js.org/d3.v7.min.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
 
-    <div id="visu1"></div>
-    <div id="visu2" style="display: none;"></div>
-    <div id="visu3" style="display: none;"></div>
-    <div id="visu4" style="display: none;"></div>
+<body>
+  <select name="select-circle" id="visu-select">
+    <option value="1">Artists</option>
+    <option value="2">Tracks</option>
+    <option value="3">Ecoutes par jour</option>
+    <option value="4">Visu4</option>
+  </select>
 
-    <script type="text/javascript" src="js/utils.js"></script>
-    <script type="text/javascript" src="js/router.js"></script>
-    <script type="text/javascript" src="js/visu1.js"></script>
-    <script type="text/javascript" src="js/visu2.js"></script>
-    <script type="text/javascript" src="js/visu3.js"></script>
-    <script type="text/javascript" src="js/visu4.js"></script>
-    <script type="text/javascript" src="js/load_visu.js"></script>
-  </body>
+  <div id="visu1"></div>
+  <div id="visu2" style="display: none;"></div>
+  <div id="visu3" style="display: none;"></div>
+  <div id="visu4" style="display: none;"></div>
+
+  <script type="text/javascript" src="js/utils.js"></script>
+  <script type="text/javascript" src="js/router.js"></script>
+  <script type="text/javascript" src="js/visu1.js"></script>
+  <script type="text/javascript" src="js/visu2.js"></script>
+  <script type="text/javascript" src="js/visu3.js"></script>
+  <script type="text/javascript" src="js/visu4.js"></script>
+  <script type="text/javascript" src="js/load_visu.js"></script>
+</body>
+
 </html>
