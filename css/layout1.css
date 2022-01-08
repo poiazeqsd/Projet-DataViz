@@ -1,0 +1,91 @@
+
+    body {
+        background-color: rgba(68, 124, 36, 0.411);
+    }
+
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Lato", sans-serif;
+    }
+
+    body,
+    html {
+        height: 100%;
+        color: #777;
+        line-height: 1.8;
+    }
+
+    /* Create a Parallax Effect */
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3 {
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /* First image (Logo. Full height) */
+    .bgimg-1,
+    .bgimg-3 {
+        background-image: url('https://logo-marque.com/wp-content/uploads/2020/09/Spotify-Symbole.jpg');
+        min-height: 100%;
+    }
+
+
+
+    .w3-wide {
+        letter-spacing: 10px;
+    }
+
+    .w3-hover-opacity {
+        cursor: pointer;
+    }
+
+    /* Turn off parallax scrolling for tablets and phones */
+    @media only screen and (max-device-width: 1600px) {
+
+        .bgimg-1,
+        .bgimg-2,
+        .bgimg-3 {
+            background-attachment: scroll;
+            min-height: 400px;
+        }
+    }
+
+    .w3-container,
+    .w3-panel {
+        padding: 0.01em 1%;
+    }
+
+    .w3-content,
+    .w3-auto {
+        margin-left: auto;
+        margin-right: auto;
+        align-items: baseline;
+    }
+
+    .w3-content {
+        max-width: 78%;
+    }
+
+    .block-svg {
+        min-block-size: 1000px;
+    }
+
+    .justify-text {
+        text-align: center;
+    }
+
+    .buttons-center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+
+    }

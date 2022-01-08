@@ -47,10 +47,11 @@ function setup_visu4(json, artistes_json, artistes , genres) {
     })
     var min = Math.min(...nodes.map(r => r.radius));
     var max = Math.max(...nodes.map(r => r.radius));
-    var scale = d3.scaleLog().domain([min, max]).range([10,25]);
+    var scale = d3.scaleLinear().domain([min, max]).range([8,30]);
     for (let i in nodes){
       nodes[i].radius = scale(nodes[i].radius);
     }
+    //console.log(nodes.map(r => { console.log(r);return {name:r.id, pop:r.radius};}));
     /*
     console.log(nodes_weights);
     var min_genre = Math.min(...nodes_weights);
@@ -81,8 +82,8 @@ function setup_visu4(json, artistes_json, artistes , genres) {
       nodeGroup: (d) => { return d.group;},
       nodeTitle: d => `${d.id} (${d.group})`,
       color_artists : color,
-      width: 1200,
-      height: 1200,
+      width: 1300,
+      height: 1000,
     });
     //console.log("!!!");
 

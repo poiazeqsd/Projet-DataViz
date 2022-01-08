@@ -27,8 +27,8 @@ function setup_visu1(json, artistes) {
     var visu = Pack(obj, {
       value: (d) => d.msPlayed,
       label: (d, n) => d.name,
-      width: 1200,
-      height: 1200,
+      width: 1300,
+      height: 900,
       tooltip_infos : tooltip_infos
     });
     var element = document.getElementById("visu1");

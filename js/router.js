@@ -17,9 +17,9 @@
           });
         });
       }
-      document
+      /*document
         .getElementById("visu-select")
-        .addEventListener("change", (d) => affichage(d));
+        .addEventListener("change", (d) => affichage(d));*/
 
       /*Promise.all([d3.json("StreamingHistory0.json"), d3.json("artists.json")])
             					.then(function (files) {

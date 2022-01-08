@@ -81,7 +81,7 @@ function Pack(
 
   node
     .append("circle")
-    .attr("fill", (d) => (d.children ? "#fff" : d.data.col))
+    .attr("fill", (d) => (d.children ? fill : d.data.col))
     .attr("fill-opacity", (d) => (d.children ? null : fillOpacity))
     .attr("stroke", (d) => (d.children ? stroke : null))
     .attr("stroke-width", (d) => (d.children ? strokeWidth : null))
@@ -302,7 +302,8 @@ Object.defineProperty(Array.prototype, 'shuffle', {
       [this[i], this[j]] = [this[j], this[i]];
     }
     return this;
-  }
+  },
+  configurable: true
 });
 
 
@@ -384,11 +385,10 @@ function buildTooltip(visuId) {
     }
   };
   const mousemove = function (e, d) {
-    var mousePosition = [e.x, e.y];
     tooltip
       .style("transform", "translateY(-55%)")
-      .style("left", e.x + "px")
-      .style("top", e.y - 30 + "px");
+      .style("left", e.pageX + "px")
+      .style("top", e.pageY  - 60  + "px");
   };
   const mouseleave = function (event, d) {
     tooltip.style("visibility", "hidden");
@@ -396,4 +396,37 @@ function buildTooltip(visuId) {
 
   return { "tooltip": tooltip, "mouseover": mouseover, "mousemove": mousemove, "mouseleave": mouseleave };
 }
+
+//js pour site
+
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+/*var menucliquant = document.getElementById("menucliquant");
+menucliquant.onclick = toggleFunction;*/
 

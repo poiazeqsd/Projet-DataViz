@@ -1,6 +1,6 @@
 
 
-Promise.all([d3.json("StreamingHistory0.json"), d3.json("artists.json")])
+Promise.all([d3.json("data/StreamingHistory0.json"), d3.json("data/artists.json")])
     .then(function (files) {
         var json = files[0];
         var artistes_json = files[1];

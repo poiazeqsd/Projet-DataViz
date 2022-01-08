@@ -1,7 +1,7 @@
 function setup_visu3(json, artistes) {
     var margin = { top: 10, right: 30, bottom: 40, left: 70 },
-      width = 1400 - margin.left - margin.right,
-      height = 1200 - margin.top - margin.bottom;
+      width = 1300 - margin.left - margin.right,
+      height = 900 - margin.top - margin.bottom;
   
     const svg = d3
       .select("#visu3")
