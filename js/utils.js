@@ -337,6 +337,7 @@ function getGenres(json, shuffle) {
 }
 
 function buildTooltip(visuId) {
+  console.log(visuId);
   const tooltip = d3
     .select(visuId)
     .append("div")
@@ -350,6 +351,7 @@ function buildTooltip(visuId) {
     .style("padding", "10px");
 
   const mouseover = function (event, d) {
+    console.log(event);
     if ((visuId === "#visu3")) {
       const artiste_name = d3.select(this.parentNode).datum().key;
       const ms_played = d.data[artiste_name];
@@ -398,6 +400,7 @@ function buildTooltip(visuId) {
 }
 
 //js pour site
+/*
 
 function onClick(element) {
   document.getElementById("img01").src = element.src;
@@ -426,7 +429,7 @@ function toggleFunction() {
         x.className = x.className.replace(" w3-show", "");
     }
 }
-
+*/
 /*var menucliquant = document.getElementById("menucliquant");
 menucliquant.onclick = toggleFunction;*/
 

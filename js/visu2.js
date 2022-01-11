@@ -39,8 +39,8 @@ function setup_visu2(json, artistes) {
       label: (d, n) => {
         return d.track;
       },
-      width: 1300,
-      height: 900,
+      width: 650,
+      height: 650,
       tooltip_infos : tooltip_infos
     });
     var element = document.getElementById("visu2");
