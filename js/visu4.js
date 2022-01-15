@@ -83,7 +83,8 @@ function setup_visu4(json, artistes_json, artistes , genres) {
       nodeTitle: d => `${d.id} (${d.group})`,
       color_artists : color,
       width: 1300,
-      height: 1200,
+      height: 1000,
+      linkStrength: 0.1
     });
     //console.log("!!!");
 

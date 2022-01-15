@@ -189,7 +189,7 @@ function ForceGraph({
 
   const forceNode = d3.forceManyBody().strength(-200);
   const forceLink = d3.forceLink(links).id((d, i) => {
-    return N[i];
+    return N[i] ;
   });
   if (nodeStrength !== undefined) forceNode.strength(nodeStrength);
   if (linkStrength !== undefined) forceLink.strength(linkStrength);
@@ -336,6 +336,15 @@ function getGenres(json, shuffle) {
   return genres;
 }
 
+function convertSec( seconds){
+  var date = new Date();
+  var today = new Date();
+  date.setSeconds(seconds);
+  var jour = "" + date.getDay() - today.getDay();
+  //console.log(date.getDay() - today.getDay());
+  return jour + ":" + date.toISOString().substr(11, 8);
+}
+
 function buildTooltip(visuId) {
   console.log(visuId);
   const tooltip = d3
@@ -357,7 +366,7 @@ function buildTooltip(visuId) {
       const ms_played = d.data[artiste_name];
       tooltip
         .html(
-          "Artiste: " + artiste_name + "<br>" + "secondes écoutées: " + ms_played
+          "Artiste: " + artiste_name + "<br>" + "" + convertSec(ms_played)
         )
         .style("visibility", "visible");
     } else if (visuId === "#visu2") {
@@ -367,7 +376,7 @@ function buildTooltip(visuId) {
         const ms_played = d.data.msPlayed;
         tooltip
           .html(
-            "Artiste : " + artiste_name + "<br>" + "secondes écoutées : " + Math.round(ms_played / 1000) + "<br>" + "Track : " + track
+            "Artiste : " + artiste_name + "<br>" + "" + convertSec(Math.round(ms_played / 1000)) + "<br>" + "Track : " + track
 
           )
           .style("visibility", "visible");
@@ -379,7 +388,7 @@ function buildTooltip(visuId) {
         const ms_played = d.data.msPlayed;
         tooltip
           .html(
-            "Artiste: " + artiste_name + "<br>" + "secondes écoutées: " + Math.round(ms_played / 1000)
+            "Artiste: " + artiste_name + "<br>" + "" + convertSec(Math.round(ms_played / 1000))
           )
           .style("visibility", "visible");
       }
