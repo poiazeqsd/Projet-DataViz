@@ -48,50 +48,50 @@
     },
     {
         "artists": {
-          "href": "https://api.spotify.com/v1/search?query=Zedk&type=artist&locale=fr-FR%2Cfr%3Bq%3D0.9&offset=0&limit=1",
-          "items": [
-            {
-              "external_urls": {
-                "spotify": "https://open.spotify.com/artist/5eDzQ1aF3AyCoQC9uNTwzE"
-              },
-              "followers": {
-                "href": null,
-                "total": 159050
-              },
-              "genres": [
-                "arabic hip hop",
-                "rap algerien"
-              ],
-              "href": "https://api.spotify.com/v1/artists/5eDzQ1aF3AyCoQC9uNTwzE",
-              "id": "5eDzQ1aF3AyCoQC9uNTwzE",
-              "images": [
+            "href": "https://api.spotify.com/v1/search?query=Zedk&type=artist&locale=fr-FR%2Cfr%3Bq%3D0.9&offset=0&limit=1",
+            "items": [
                 {
-                  "height": 640,
-                  "url": "https://i.scdn.co/image/ab6761610000e5eb57f24be958dd3a3cd9c92a13",
-                  "width": 640
-                },
-                {
-                  "height": 320,
-                  "url": "https://i.scdn.co/image/ab6761610000517457f24be958dd3a3cd9c92a13",
-                  "width": 320
-                },
-                {
-                  "height": 160,
-                  "url": "https://i.scdn.co/image/ab6761610000f17857f24be958dd3a3cd9c92a13",
-                  "width": 160
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/5eDzQ1aF3AyCoQC9uNTwzE"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 159050
+                    },
+                    "genres": [
+                        "arabic hip hop",
+                        "rap algerien"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/5eDzQ1aF3AyCoQC9uNTwzE",
+                    "id": "5eDzQ1aF3AyCoQC9uNTwzE",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb57f24be958dd3a3cd9c92a13",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab6761610000517457f24be958dd3a3cd9c92a13",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f17857f24be958dd3a3cd9c92a13",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Zedk",
+                    "popularity": 45,
+                    "type": "artist",
+                    "uri": "spotify:artist:5eDzQ1aF3AyCoQC9uNTwzE"
                 }
-              ],
-              "name": "Zedk",
-              "popularity": 45,
-              "type": "artist",
-              "uri": "spotify:artist:5eDzQ1aF3AyCoQC9uNTwzE"
-            }
-          ],
-          "limit": 1,
-          "next": "https://api.spotify.com/v1/search?query=Zedk&type=artist&locale=fr-FR%2Cfr%3Bq%3D0.9&offset=1&limit=1",
-          "offset": 0,
-          "previous": null,
-          "total": 20
+            ],
+            "limit": 1,
+            "next": "https://api.spotify.com/v1/search?query=Zedk&type=artist&locale=fr-FR%2Cfr%3Bq%3D0.9&offset=1&limit=1",
+            "offset": 0,
+            "previous": null,
+            "total": 20
         }
     },
     {
@@ -3151,17 +3151,6 @@
     },
     {
         "artists": {
-            "href": "https://api.spotify.com/v1/search?query=Journal+du+Foot&type=artist&offset=0&limit=1",
-            "items": [],
-            "limit": 1,
-            "next": null,
-            "offset": 0,
-            "previous": null,
-            "total": 0
-        }
-    },
-    {
-        "artists": {
             "href": "https://api.spotify.com/v1/search?query=Mourad+Oudia&type=artist&offset=0&limit=1",
             "items": [
                 {
@@ -3743,6 +3732,54 @@
                 }
             ],
             "limit": 1,
+            "next": null,
+            "offset": 0,
+            "previous": null,
+            "total": 1
+        }
+    },
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=Le+classico+organis%C3%A9&type=artist&locale=fr-FR%2Cfr%3Bq%3D0.9&offset=0&limit=20",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/791x09Ix1mNc1hGhbD7IOW"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 54453
+                    },
+                    "genres": [
+                        "french hip hop",
+                        "pop urbaine"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/791x09Ix1mNc1hGhbD7IOW",
+                    "id": "791x09Ix1mNc1hGhbD7IOW",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/ab6761610000e5eb620918d5fe62757c10d43a65",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/ab67616100005174620918d5fe62757c10d43a65",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/ab6761610000f178620918d5fe62757c10d43a65",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Le classico organisé",
+                    "popularity": 72,
+                    "type": "artist",
+                    "uri": "spotify:artist:791x09Ix1mNc1hGhbD7IOW"
+                }
+            ],
+            "limit": 20,
             "next": null,
             "offset": 0,
             "previous": null,

@@ -336,17 +336,58 @@ function getGenres(json, shuffle) {
   return genres;
 }
 
+function getGenresEns(json, shuffle) {
+  var genres = {};
+  for (var i in json) {
+    //console.log(" --------------------- " + i + " --------------");
+    var newEnsGenre = "";
+    if (json[i].artists.items.length > 0) {
+      var g = json[i].artists.items[0].genres;
+      
+      //console.log(g);
+      if (g.length == 0) {
+        g = ["undefined"];
+      }
+      for (let ge in g)
+        newEnsGenre += (g[ge]) + ",";
+        //genres.push(g[ge]);
+    }
+    /*console.log(newEnsGenre);
+    console.log(genres);
+    console.log("---------------");*/
+
+    genres[newEnsGenre] = 1;
+  }
+
+  /*console.log("#######################");
+  console.log("#######################");
+  console.log("#######################");*/
+  //console.log(Object.keys(genres));
+
+
+  //genres = genres.filter(onlyUnique);
+  //if (shuffle) genres.shuffle();
+  return genres;
+}
+
 function convertSec( seconds){
+  /*var today = new Date();
   var date = new Date();
-  var today = new Date();
+  today.setTime(0);
+  date.setTime(0);
   date.setSeconds(seconds);
-  var jour = "" + date.getDay() - today.getDay();
-  //console.log(date.getDay() - today.getDay());
-  return jour + ":" + date.toISOString().substr(11, 8);
+  //console.log(today); console.log(date);
+  var jour_elapsed = date.getDay() - today.getDay();
+  var jour = (jour_elapsed > 0)? jour_elapsed + ":": "";*/
+  var elapsed_time = new Date(seconds * 1000);
+  //elapsed_time.
+  var elapsed_days = Math.floor( elapsed_time.getTime() /  (1000 * 3600 * 24)) ;
+  return (elapsed_days == 0 ) ? elapsed_time.toISOString().slice(11,19) : elapsed_days + ":" + elapsed_time.toISOString().slice(11,19);
+  //return jour  + date.toISOString().slice(11,19);
 }
 
 function buildTooltip(visuId) {
-  console.log(visuId);
+  //console.log(visuId);
   const tooltip = d3
     .select(visuId)
     .append("div")
@@ -360,10 +401,10 @@ function buildTooltip(visuId) {
     .style("padding", "10px");
 
   const mouseover = function (event, d) {
-    console.log(event);
     if ((visuId === "#visu3")) {
       const artiste_name = d3.select(this.parentNode).datum().key;
       const ms_played = d.data[artiste_name];
+      //console.log(convertSec(ms_played));
       tooltip
         .html(
           "Artiste: " + artiste_name + "<br>" + "" + convertSec(ms_played)
@@ -386,6 +427,7 @@ function buildTooltip(visuId) {
       const artiste_name = d.data.name;
       if (!(artiste_name === "visu")) {
         const ms_played = d.data.msPlayed;
+        //console.log(convertSec(ms_played));
         tooltip
           .html(
             "Artiste: " + artiste_name + "<br>" + "" + convertSec(Math.round(ms_played / 1000))
@@ -442,3 +484,18 @@ function toggleFunction() {
 /*var menucliquant = document.getElementById("menucliquant");
 menucliquant.onclick = toggleFunction;*/
 
+
+function artistesByTime(json , top = undefined){
+  var tab = {};
+  //console.log("merde");
+  json.forEach(d => tab[d.artistName] = 0);
+  json.forEach(d => tab[d.artistName] += d.msPlayed);
+  if(top === undefined){
+    return json;
+  } else {
+    var items = new Set(Object.entries(tab).sort( (a,b) => {
+      return b[1]  - a[1];
+    }).map(x => x[0]).slice(0,top));
+    return Object.keys(tab).filter(d => items.has(d));
+  }
+} 
