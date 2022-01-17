@@ -14,10 +14,12 @@ This is very interesting data if one is interested in predicting musical trends 
 ![Alt text](https://github.com/poiazeqsd/Projet-DataViz/blob/main/12-thumbnail.png?raw=true)
 
 # Sources
-    - [Circle Pack][1]
-    - [Force Graph][2]
-    - [Spotify][3]
-    - [Spotify API][4]
+-----
+
+- [Circle Pack][1]
+- [Force Graph][2]
+- [Spotify][3]
+- [Spotify API][4]
 
 
 [1]: https://observablehq.com/@d3/pack
