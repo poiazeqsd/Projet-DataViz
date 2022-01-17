@@ -49,8 +49,8 @@ function setup_visu2(js, arts, top_artistes = undefined) {
     label: (d, n) => {
       return d.track;
     },
-    width: 650,
-    height: 650,
+    width: 1000,
+    height: 800,
     tooltip_infos: tooltip_infos
   });
   var element = document.getElementById("visu2");

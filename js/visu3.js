@@ -12,7 +12,7 @@ function setup_visu3(js, arts, top_artistes = undefined) {
 
   var margin = { top: 10, right: 30, bottom: 40, left: 70 },
     width = 1500 - margin.left - margin.right,
-    height = 800 - margin.top - margin.bottom;
+    height = 750 - margin.top - margin.bottom;
 
   const svg = d3
     .select("#visu3")

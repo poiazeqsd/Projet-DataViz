@@ -46,8 +46,8 @@ function setup_visu1(js, arts, top_artistes = undefined) {
   var visu = Pack(obj, {
     value: (d) => d.msPlayed,
     label: (d, n) => d.name,
-    width: 900,
-    height: 900,
+    width: 1000,
+    height: 800,
     tooltip_infos: tooltip_infos
   });
   var element = document.getElementById("visu1");
