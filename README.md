@@ -14,7 +14,7 @@ This is very interesting data if one is interested in predicting musical trends 
 ![Alt text](https://github.com/poiazeqsd/Projet-DataViz/blob/main/12-thumbnail.png?raw=true)
 
 # Sources
-    - https://observablehq.com/@d3/pack
-    - https://observablehq.com/@d3/force-directed-graph
-    - https://www.spotify.com/
-    - https://developer.spotify.com/console/get-search-item/   
+    - [Circle Pack](https://observablehq.com/@d3/pack)
+    - [Force Graph](https://observablehq.com/@d3/force-directed-graph)
+    - [Spotify] (https://www.spotify.com/)
+    - [Spotify API] (https://developer.spotify.com/console/get-search-item/) 
