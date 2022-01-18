@@ -3,14 +3,11 @@ function setup_visu1(js, arts, top_artistes = undefined) {
 
   var json = js;
   var artistes = arts;// Listes des artistes à afficher
-  //console.log(artistes);
   if (top_artistes !== undefined) {
     artistes = artistesByTime(json, top = top_artistes);// On récupère le top des artistes les + écoutés
     const liste_art = new Set(artistes);
-    //console.log(liste_art);
     json = json.filter(d => liste_art.has(d.artistName));
   }
-  //console.log(artistes);
 
 
 
@@ -22,16 +19,11 @@ function setup_visu1(js, arts, top_artistes = undefined) {
   var tab = {};
   for (var i in json) {
     var artistName = json[i].artistName;
-    //console.log(artistName);
-    //console.log(artistes.has(artistName));
-    //if(liste_art.has(artistName)){
-    //console.log(artistName );
     if (artistName in tab) {
       tab[artistName] += json[i].msPlayed;
     } else {
       tab[artistName] = json[i].msPlayed;
     }
-    //}
   }
 
   var tab2 = [];

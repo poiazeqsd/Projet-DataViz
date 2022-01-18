@@ -2,11 +2,9 @@ function setup_visu2(js, arts, top_artistes = undefined) {
 
   var json = js;
   var artistes = arts;// Listes des artistes à afficher
-  //console.log(artistes);
   if (top_artistes !== undefined) {
     artistes = artistesByTime(json, top = top_artistes);// On récupère le top des artistes les + écoutés
     const liste_art = new Set(artistes);
-    //console.log(liste_art);
     json = json.filter(d => liste_art.has(d.artistName));
   }
 
@@ -53,7 +51,6 @@ function setup_visu2(js, arts, top_artistes = undefined) {
     height: 800,
     tooltip_infos: tooltip_infos
   });
-  var element = document.getElementById("visu2");
+  var element = document.getElementById("visu1");
   element.appendChild(visu);
-  //console.log("fini dsp");
 }

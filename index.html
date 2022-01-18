@@ -143,16 +143,21 @@
         <div class="w3-row block-svg justify-text" data-scroll-reveal="enter left move 30px over 0.5s after 0.4s">
 
             <figcaption>
-                <h3>CIRCLE PACK 1</h3>Les surfaces représentent le temps d'écoute en secondes pour chaque artistes pour
-                toute la période enregistrée.
+                <h3>CIRCLE PACK 1</h3><p style="color: white; margin: 0% 10%; font-size: 18px;">Les surfaces représentent le temps d'écoute en heures:minutes:secondes pour chaque artiste durant
+                toute la période enregistrée. En version Track, la surface représente le temps d'écoute de chaque musique de chaque artiste en heures:minutes:secondes</p>
+                
             </figcaption>
             <div class="selectdiv">
                 <label>
-                    <select id="select1" value="undefined">
-                        <option value="undefined" selected> Tous </option>
-                        <option value="10">Top 10</option>
-                        <option value="20">Top 20</option>
-                        <option value="50">Top 50</option>
+                    <select id="select1" value="1">
+                        <option value="1" selected> Tous - Artistes </option>
+                        <option value="2" > Tous - Tracks </option>
+                        <option value="3">Top 10 - Artistes</option>
+                        <option value="4">Top 10 - Tracks</option>
+                        <option value="5">Top 20 - Artistes</option>
+                        <option value="6">Top 20 - Tracks</option>
+                        <option value="7">Top 50 - Artistes</option>
+                        <option value="8">Top 50 - Tracks</option>
                     </select>
                 </label>
             </div>
@@ -160,6 +165,7 @@
 
             <div id="visu1"></div>
         </div>
+        <!--
         <div class="w3-row block-svg justify-text" data-scroll-reveal="enter right move 30px over 0.5s after 0.4s">
             <figcaption>
                 <h3>CIRCLE PACK 2</h3>Les surfaces représentent le temps d'écoute en secondes pour chaque artistes et
@@ -177,9 +183,11 @@
             </div>
             <div id="visu2"></div>
         </div>
+        -->
         <div class="w3-row block-svg justify-text" data-scroll-reveal="enter left move 30px over 0.5s after 0.4s">
             <figcaption>
-                <h3>BAR CHART</h3>Ecoutes en secondes par jour et par artistes
+                <h3>BAR CHART</h3><p style="color: white; margin: 0% 10%; font-size: 18px;">Ecoutes en secondes par jour et par artistes, chaque couleur représente un artiste et la
+                 hauteur du rectangle correspond au temps d'écoute durant la journée</p>
             </figcaption>
             <div class="selectdiv">
                 <label>
@@ -195,8 +203,8 @@
         </div>
         <div class="w3-row block-svg justify-text" data-scroll-reveal="enter right move 30px over 0.5s after 0.4s">
             <figcaption>
-                <h3>FORCE GRAPH</h3>Graphe de liens entre artistes et genres musicaux. La surface de chaque artiste
-                représente sa popularité et celle des genres, le nombre d'artistes apparentés
+                <h3>FORCE GRAPH</h3><p style="color: white; margin: 0% 10%; font-size: 18px;">Graphe de liens entre artistes et genres musicaux. La surface de chaque artiste
+                représente sa popularité et celle des genres, le nombre d'artistes apparentés, les couleurs correspondent à l'ensemble de genres musicaux auxquels l'artiste est associé</p>
             </figcaption>
             <div class="selectdiv">
                 <label>

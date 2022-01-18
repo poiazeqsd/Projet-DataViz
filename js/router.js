@@ -1,5 +1,5 @@
 
-const map_id_visus = new Map();
+/*const map_id_visus = new Map();
 
 map_id_visus.set("1", ["visu1"]);
 map_id_visus.set("2", ["visu2"]);
@@ -16,11 +16,11 @@ function affichage(d) {
       }
     });
   });
-}
+}*/
 
 
 
-const tab = [1, 2, 3, 4];
+const tab = [1, 3, 4];
 
 for (let i in tab) {
   var x = document

@@ -1,11 +1,9 @@
 function setup_visu3(js, arts, top_artistes = undefined) {
   var json = js;
   var artistes = arts;// Listes des artistes à afficher
-  //console.log(artistes);
   if (top_artistes !== undefined) {
     artistes = artistesByTime(json, top = top_artistes);// On récupère le top des artistes les + écoutés
     const liste_art = new Set(artistes);
-    //console.log(liste_art);
     json = json.filter(d => liste_art.has(d.artistName));
   }
 
@@ -21,12 +19,6 @@ function setup_visu3(js, arts, top_artistes = undefined) {
     .attr("height", height + margin.top + margin.bottom)
     .append("g")
     .attr("transform", `translate(${margin.left},${margin.top})`);
-
-  var pp = true;
-  /*
-  json.forEach((d) => {
-    d.msPlayed = Math.round(d.msPlayed / 1000);
-  });*/
 
   var dates = [];
   var tab_ms_by_day = {};
@@ -97,7 +89,6 @@ function setup_visu3(js, arts, top_artistes = undefined) {
   var max_ms = d3.max(Object.values(tab_ms_by_day), function (d) {
     return d;
   });
-  //console.log(max_ms);
 
   const x = d3.scaleUtc().domain([min_date, max_date]).range([0, width]);
 
@@ -138,7 +129,6 @@ function setup_visu3(js, arts, top_artistes = undefined) {
 
   const tooltip_infos = buildTooltip("#visu3");
 
-  const tooltip = tooltip_infos.tooltip;
 
   svg
     .append("g")

@@ -23,7 +23,7 @@ function Pack(
     marginBottom = margin, // bottom margin, in pixels
     marginLeft = margin, // left margin, in pixels
     padding = 3, // separation between circles
-    fill = "#ddd", // fill for leaf circles
+    fill = "#fff", // fill for leaf circles
     fillOpacity, // fill opacity for leaf circles
     stroke = "#bbb", // stroke for internal circles
     strokeWidth, // stroke width for internal circles
@@ -233,7 +233,6 @@ function ForceGraph({
       return color_artists(d.idx);
     else
       return "#bbb";
-      //return color(G[i]);
   });
   if (T) node.append("title").text(({ index: i }) => T[i]);
 
@@ -339,57 +338,32 @@ function getGenres(json, shuffle) {
 function getGenresEns(json, shuffle) {
   var genres = {};
   for (var i in json) {
-    //console.log(" --------------------- " + i + " --------------");
     var newEnsGenre = "";
     if (json[i].artists.items.length > 0) {
       var g = json[i].artists.items[0].genres;
       
-      //console.log(g);
       if (g.length == 0) {
         g = ["undefined"];
       }
       for (let ge in g)
         newEnsGenre += (g[ge]) + ",";
-        //genres.push(g[ge]);
     }
-    /*console.log(newEnsGenre);
-    console.log(genres);
-    console.log("---------------");*/
 
     genres[newEnsGenre] = 1;
   }
-
-  /*console.log("#######################");
-  console.log("#######################");
-  console.log("#######################");*/
-  //console.log(Object.keys(genres));
-
-
-  //genres = genres.filter(onlyUnique);
-  //if (shuffle) genres.shuffle();
   return genres;
 }
 
 function convertSec( seconds){
-  /*var today = new Date();
-  var date = new Date();
-  today.setTime(0);
-  date.setTime(0);
-  date.setSeconds(seconds);
-  //console.log(today); console.log(date);
-  var jour_elapsed = date.getDay() - today.getDay();
-  var jour = (jour_elapsed > 0)? jour_elapsed + ":": "";*/
   var elapsed_time = new Date(seconds * 1000);
-  //elapsed_time.
   var elapsed_days = Math.floor( elapsed_time.getTime() /  (1000 * 3600 * 24)) ;
   return (elapsed_days == 0 ) ? elapsed_time.toISOString().slice(11,19) : elapsed_days + ":" + elapsed_time.toISOString().slice(11,19);
-  //return jour  + date.toISOString().slice(11,19);
 }
 
 function buildTooltip(visuId) {
-  //console.log(visuId);
+  const var_visu_id = (visuId === "#visu2") ? "#visu1": visuId;
   const tooltip = d3
-    .select(visuId)
+    .select(var_visu_id)
     .append("div")
     .style("position", "absolute")
     .style("visibility", "hidden")
@@ -404,7 +378,6 @@ function buildTooltip(visuId) {
     if ((visuId === "#visu3")) {
       const artiste_name = d3.select(this.parentNode).datum().key;
       const ms_played = d.data[artiste_name];
-      //console.log(convertSec(ms_played));
       tooltip
         .html(
           "Artiste: " + artiste_name + "<br>" + "" + convertSec(ms_played)
@@ -427,7 +400,6 @@ function buildTooltip(visuId) {
       const artiste_name = d.data.name;
       if (!(artiste_name === "visu")) {
         const ms_played = d.data.msPlayed;
-        //console.log(convertSec(ms_played));
         tooltip
           .html(
             "Artiste: " + artiste_name + "<br>" + "" + convertSec(Math.round(ms_played / 1000))
@@ -450,44 +422,9 @@ function buildTooltip(visuId) {
   return { "tooltip": tooltip, "mouseover": mouseover, "mousemove": mousemove, "mouseleave": mouseleave };
 }
 
-//js pour site
-/*
-
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
-
-// Change style of navbar on scroll
-window.onscroll = function() {myFunction()};
-function myFunction() {
-    var navbar = document.getElementById("myNavbar");
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
-    } else {
-        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
-    }
-}
-
-// Used to toggle the menu on small screens when clicking on the menu button
-function toggleFunction() {
-    var x = document.getElementById("navDemo");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-*/
-/*var menucliquant = document.getElementById("menucliquant");
-menucliquant.onclick = toggleFunction;*/
-
 
 function artistesByTime(json , top = undefined){
   var tab = {};
-  //console.log("merde");
   json.forEach(d => tab[d.artistName] = 0);
   json.forEach(d => tab[d.artistName] += d.msPlayed);
   if(top === undefined){
