@@ -10,6 +10,8 @@ This additional information allows us to know some interesting factors such as t
 
 This is very interesting data if one is interested in predicting musical trends by analysing the listener's habits and preferences
 
+[Click here to see the results][8]
+
 
 ![Alt text](https://github.com/poiazeqsd/Projet-DataViz/blob/main/12-thumbnail.png?raw=true)
 
@@ -19,9 +21,15 @@ This is very interesting data if one is interested in predicting musical trends 
 - [Force Graph][2]
 - [Spotify][3]
 - [Spotify API][4]
-
+- [D3.js][5]
+- [W3 CSS][6]
+- [Website template][7]
 
 [1]: https://observablehq.com/@d3/pack
 [2]: https://observablehq.com/@d3/force-directed-graph
 [3]: https://www.spotify.com/
 [4]: https://developer.spotify.com/console/get-search-item/ 
+[5]: https://d3js.org/
+[6]: https://www.w3schools.com/w3css/defaulT.asp
+[7]: https://templatemo.com/tm-543-breezed
+[8]: https://poiazeqsd.github.io/Projet-DataViz/
