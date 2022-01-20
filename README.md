@@ -32,6 +32,7 @@ This is very interesting data if one is interested in predicting musical trends 
 - [D3.js][5]
 - [W3 CSS][6]
 - [Website template][7]
+- [Bootstrap][9]
 
 [1]: https://observablehq.com/@d3/pack
 [2]: https://observablehq.com/@d3/force-directed-graph
@@ -41,3 +42,4 @@ This is very interesting data if one is interested in predicting musical trends 
 [6]: https://www.w3schools.com/w3css/defaulT.asp
 [7]: https://templatemo.com/tm-543-breezed
 [8]: https://poiazeqsd.github.io/Projet-DataViz/
+[9]: https://getbootstrap.com/
